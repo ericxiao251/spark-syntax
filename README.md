@@ -18,7 +18,7 @@ This is a public repo documenting all of the "best practices" of writing PySpark
 ## Chapter 3 - Aggregates:
 * [Clean Aggregations](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%203%20-%20Aggregates/Case%20Study%201%20-%20Clean%20Aggregations.ipynb)
 * [Non Deterministic Behaviours](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%203%20-%20Aggregates/Case%20Study%202%20-%20Non%20Deterministic%20Behaviours.ipynb)
-
+* [High Frequency Data](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%203%20-%20Aggregates/Case%20Study%203%20-%20High%20Frequency%20Data.ipynb)
 ## Chapter 4 - Window Objects:
 
 ## Chapter 5 - Error Logs:
