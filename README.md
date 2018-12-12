@@ -8,7 +8,8 @@ This is a public repo documenting all of the "best practices" of writing PySpark
 * #### 1.1 - What to use: Long vs Int?
 * #### 1.2 - What to use: Date vs Datetime?
 * #### 1.3 - What the Heck are Spark Literals?
-* #### 1.4 - Why did my Decimals overflow :(?
+* #### 1.4 - [Equalities with Null Values?](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%201%20-%20Basics/Section%204%20-%20Equalities%20with%20Null%20Values.ipynb)
+* #### 1.5 - Why did my Decimals overflow :(?
 
 ## Chapter 2 - Joins:
 * ##### 2.1 - [Natural vs Inner Joins Expressions](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Joins/Section%201%20-%20Natural%20vs%20Inner%20Joins.ipynb)
