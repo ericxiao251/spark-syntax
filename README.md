@@ -1,21 +1,22 @@
 # Spark-Syntax
 
-This is a public repo documenting all of the "best practices" of writing PySpark code from what I have learnt from working in the industry.
+This is a public repo documenting all of the "best practices" of writing a PySpark code from what I have learnt from working with `PySpark` for 3 years. This will mainly focus on the `Spark DataFrames and SQL` library. 
 
 # Table of Contexts:
 
 ## Chapter 1 - Getting Started with Spark:
-* #### 1.1 - [What is Spark?](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%201%20-%20Basics/Section%201%20-%20What%20is%20Spark%3F.ipynb)
+* #### 1.1 - [Useful Material]()
 * #### 1.2 - [Reading in your First Dataset](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%201%20-%20Basics/Section%202%20-%20Reading%20your%20First%20Dataset.ipynb)
 * #### 1.3 - [Performing your First Transformations](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%201%20-%20Basics/Section%203%20-%20Performing%20your%20First%20Transformations.ipynb)
-* #### 1.4 - [Spark SQL](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%201%20-%20Basics/Section%204%20-%20Spark%20SQL.ipynb)
+* #### 1.4 - [More Comfortable with SQL?](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%201%20-%20Basics/Section%204%20-%20Spark%20SQL.ipynb)
 
 ## Chapter 2 - Exploring the Spark APIs:
 * #### 2.1 - [The Basic Spark Functions]()
 * #### 2.2 - [Spark Functions aren't enough, I Need my Own Functions!]()
 * #### 2.3 - [What the Heck are Spark Literals?](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%201%20-%20Basics/Section%204%20-%20Equalities%20with%20Null%20Values.ipynb)
-* #### 2.4 - [Equalities with Null Values?](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%201%20-%20Basics/Section%204%20-%20Equalities%20with%20Null%20Values.ipynb)
+* #### 2.4 - [Working with Decimal Types]()?
 * #### 2.5 - [Why did my Decimals overflow :(](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%201%20-%20Basics/Section%204%20-%20Equalities%20with%20Null%20Values.ipynb)?
+* #### 2.6 - [Equalities with Null Values?](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%201%20-%20Basics/Section%204%20-%20Equalities%20with%20Null%20Values.ipynb)
 
 ## Chapter 3 - Joins:
 * ##### 3.1 - [Natural vs Inner Joins Expressions](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Joins/Section%201%20-%20Natural%20vs%20Inner%20Joins.ipynb)
