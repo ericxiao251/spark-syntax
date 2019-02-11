@@ -1,24 +1,24 @@
-#### Spark API Documents
+### Spark API Documents
 I always find myself referencing the `PySpark API` documentations and have it opened as a seperate browser at work. A majority of your Spark  application will be written with the functions found in the document.
 
 It can be found with this link (I suggest you bookmark it 😀):
 
 [PySpark latest API docs](https://spark.apache.org/docs/latest/api/python/pyspark.sql.html#pyspark.sql.DataFrame)
 
-#### Ask Google
+### Ask Google
 When in doubt ask Google, there are a lot of crowdsourced questions and answers on Stack Overflow.
 
-#### Companies that Contribute to Spark  
+### Companies that Contribute to Spark  
 **Databricks** and **Cloudera** contribute heavily to spark and they provide a lot of good blogs about writting performant Spark code.
 
 **Note:** The author of Spark, Matei Zaharia cofounded the company.
 
-#### Conference Talks
+### Conference Talks
 There are a lot of Spark conferences throughout the year where speakers from the companies above or the big tech companies come speak about their advances and experiences with Spark at scale. I find these talks very insightful into writing "real big data" applications. These talks also cover a broader subject matter like how to manage a large spark cluster, etc.
 
 Example: [Apache Spark - Spark + AI Summit San Francisco 2018](https://www.youtube.com/watch?v=MKJq2CrzCno&list=PLTPXxbhUt-YXXCAsjdkts-r_cJnOV7AG2)
 
-#### Spark Books
+### Spark Books
 The O'reilly books on Spark is how I got into Spark. They are either written by some highly profiled people in the Spark community (Holden Karau) or the original members that created Spark back in the AmpLabs days (Matei Zaharia).
 
 The two that I would recommend are:
@@ -31,7 +31,7 @@ The two that I would recommend are:
     * This book is more up-to-date as it talks more in-depth about `Spark SQL` and the `DataFrame`s API.  
     * This book is written by Matei Zahario most noticably.
 
-#### Spark Release Docs
+### Spark Release Docs
 Spark is an open-source project under Apache, and release new features commonly. If you want to be up-to-date with the newest features I recommend following their releases/news:
 
 [Spark Releases](https://spark.apache.org/releases/)
