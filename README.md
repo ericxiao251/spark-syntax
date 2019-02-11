@@ -5,10 +5,10 @@ This is a public repo documenting all of the "best practices" of writing a PySpa
 # Table of Contexts:
 
 ## Chapter 1 - Getting Started with Spark:
-* #### 1.1 - [Useful Material]()
-* #### 1.2 - [Reading in your First Dataset](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%201%20-%20Basics/Section%202%20-%20Reading%20your%20First%20Dataset.ipynb)
+* #### 1.1 - [Useful Material](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%201%20-%20Basics/Section%201%20-%20Useful%20Material.md)
+* #### 1.2 - [Reading your First Dataset](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%201%20-%20Basics/Section%202%20-%20Reading%20your%20First%20Dataset.ipynb)
 * #### 1.3 - [Performing your First Transformations](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%201%20-%20Basics/Section%203%20-%20Performing%20your%20First%20Transformations.ipynb)
-* #### 1.4 - [More Comfortable with SQL?](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%201%20-%20Basics/Section%204%20-%20Spark%20SQL.ipynb)
+* #### 1.4 - [More Comfortable with SQL?](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%201%20-%20Basics/Section%204%20-%20More%20Comfortable%20with%20SQL%3F.ipynb)
 
 ## Chapter 2 - Exploring the Spark APIs:
 * #### 2.1 - [The Basic Spark Functions]()
