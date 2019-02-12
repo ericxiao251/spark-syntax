@@ -6,7 +6,7 @@ This is a public repo documenting all of the "best practices" of writing PySpark
 
 ## Chapter 1 - Getting Started with Spark:
 * #### 1.1 - [Useful Material](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%201%20-%20Basics/Section%201%20-%20Useful%20Material.md)
-* #### 1.2 - [Creating your First DataFrame]()
+* #### 1.2 - [Creating your First DataFrame](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%201%20-%20Basics/Section%202%20-%20Creating%20your%20First%20Data%20Object.ipynb)
 * #### 1.3 - [Reading your First Dataset](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%201%20-%20Basics/Section%203%20-%20Reading%20your%20First%20Dataset.ipynb)
 * #### 1.4 - [More Comfortable with SQL?](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%201%20-%20Basics/Section%204%20-%20More%20Comfortable%20with%20SQL%3F.ipynb)
 
@@ -19,7 +19,7 @@ This is a public repo documenting all of the "best practices" of writing PySpark
     * ##### 2.1.5 - Filling in Null Values (fillna/colasce)
     * ##### 2.1.6 - How to Properly Union Your DataFrames
     * ##### 2.1.7 - [Equalities with Null Values](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%206%20-%20Equalities%20with%20Null%20Values.ipynb)
-* #### 2.2 - [Spark Functions aren't enough, I Need my Own Functions! (WIP)]()
+* #### 2.2 - [Spark Functions aren't Enough, I Need my Own Functions! (WIP)]()
 * #### 2.3 - [What the Heck are Spark Literals?](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%203%20-%20What%20the%20Heck%20are%20Spark%20Literals%3F.ipynb)
 * #### 2.4 - [Working with Decimal Types (WIP)]()
 * #### 2.5 - [Why did my Decimals overflow :( (WIP)]()
