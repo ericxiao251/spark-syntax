@@ -1,6 +1,6 @@
 # Spark-Syntax
 
-This is a public repo documenting all of the "best practices" of writing a PySpark code from what I have learnt from working with `PySpark` for 3 years. This will mainly focus on the `Spark DataFrames and SQL` library.
+This is a public repo documenting all of the "best practices" of writing PySpark code from what I have learnt from working with `PySpark` for 3 years. This will mainly focus on the `Spark DataFrames and SQL` library.
 
 # Table of Contexts:
 

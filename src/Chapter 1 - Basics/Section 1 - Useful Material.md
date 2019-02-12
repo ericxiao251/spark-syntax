@@ -11,7 +11,7 @@ When in doubt ask Google, there are a lot of crowdsourced questions and answers 
 ### Companies that Contribute to Spark  
 **Databricks** and **Cloudera** contribute heavily to spark and they provide a lot of good blogs about writting performant Spark code.
 
-**Note:** The author of Spark, Matei Zaharia cofounded the company.
+**Note:** The author of Spark, Matei Zaharia also cofounded Databricks the company.
 
 ### Conference Talks
 There are a lot of Spark conferences throughout the year where speakers from the companies above or the big tech companies come speak about their advances and experiences with Spark at scale. I find these talks very insightful into writing "real big data" applications. These talks also cover a broader subject matter like how to manage a large spark cluster, etc.
