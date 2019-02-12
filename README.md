@@ -12,11 +12,17 @@ This is a public repo documenting all of the "best practices" of writing PySpark
 
 ## Chapter 2 - Exploring the Spark APIs:
 * #### 2.1 - [Performing your First Transformations](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%201%20-%20Basics/Section%203%20-%20Performing%20your%20First%20Transformations.ipynb)
+    * ##### 2.1.1 - Looking at your data
+    * ##### 2.1.2 - Selecting a Subset of Columns
+    * ##### 2.1.3 - Filtering the data
+    * ##### 2.1.4 - Case Statements
+    * ##### 2.1.5 - Filling in Null Values (fillna/colasce)
+    * ##### 2.1.6 - How to Properly Union Your DataFrames
+    * ##### 2.1.7 - [Equalities with Null Values](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%206%20-%20Equalities%20with%20Null%20Values.ipynb)
 * #### 2.2 - [Spark Functions aren't enough, I Need my Own Functions! (WIP)]()
 * #### 2.3 - [What the Heck are Spark Literals?](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%203%20-%20What%20the%20Heck%20are%20Spark%20Literals%3F.ipynb)
 * #### 2.4 - [Working with Decimal Types (WIP)]()
 * #### 2.5 - [Why did my Decimals overflow :( (WIP)]()
-* #### 2.6 - [Equalities with Null Values](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%206%20-%20Equalities%20with%20Null%20Values.ipynb)
 
 ## Chapter 3 - Joins:
 * #### 3.1 - [A Basic Join](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%203%20-%20Joins/Section%201%20-%20A%20Basic%20Join.ipynb)
