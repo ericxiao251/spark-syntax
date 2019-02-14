@@ -41,3 +41,11 @@ This is a public repo documenting all of the "best practices" of writing PySpark
 ## Chapter 6 - Error Logs:
 
 ## Chapter 6 - Tuning & Spark Parameters:
+* #### 5.1 - [Default Behaviors of Window Objects]
+
+## Chapter 7 - High Performance Code:
+* #### 7.1 - Improving Joins
+    * ##### 7.1.1 - [Filter Pushdown](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%203%20-%20Joins/Section%202%20-%20Imporving%20Joins.ipynb)
+    * ##### 7.1.2 - [Joining on Skewed Data (Null Keys)](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%203%20-%20Joins/Section%203%20-%20Joins%20on%20Skewed%20Data.ipynb)
+    * ##### 7.1.3 - [Joining on Skewed Data (High Frequency Keys I)](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%203%20-%20Joins/Section%203%20-%20Joins%20on%20Skewed%20Data.ipynb)
+    * ##### 7.1.3 - [Joining on Skewed Data (High Frequency Keys II)](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%203%20-%20Joins/Section%203%20-%20Joins%20on%20Skewed%20Data.ipynb)
