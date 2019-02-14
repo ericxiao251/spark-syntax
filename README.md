@@ -23,9 +23,13 @@ This is a public repo documenting all of the "best practices" of writing PySpark
     * ##### 2.1.7 - One to Many Rows (`explode`)
     * ##### 2.1.8 - [Performing Joins (clean one)](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201.8%20-%20Performing%20Joins%20(clean%20one).ipynb) (`join`)
     * ##### 2.1.8 - [Range Join Conditions (WIP)](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201.9%20-%20Range%20Join%20Conditions%20(WIP).ipynb) (`join`)
+* #### 2.2 - Decimal Types
+    * ##### 2.1 - Working with Decimal Types
+    * ##### 2.2 - Why did my Decimals overflow :(
+* #### 2.3 - Dates and Datetime (Timestamps) Types
+    * ##### 3.1 - Working with Date and Datetime Types
+    * ##### 3.2 - Timezone aware data
 * #### 2.2 - [Equalities with Null Values](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%202%20-%20Equalities%20with%20Null%20Values.ipynb)
-* #### 2.3 - Working with Decimal Types
-* #### 2.4 - Why did my Decimals overflow :(
 
 ## Chapter 3 - Aggregates:
 * #### 4.1 - [Clean Aggregations](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%203%20-%20Aggregates/Section%201%20-%20Clean%20Aggregations.ipynb)
