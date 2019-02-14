@@ -12,36 +12,35 @@ This is a public repo documenting all of the "best practices" of writing PySpark
 
 ## Chapter 2 - Exploring the Spark APIs:
 * #### 2.1 - [Performing your First Transformations](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%201%20-%20Basics/Section%203%20-%20Performing%20your%20First%20Transformations.ipynb)
-    * ##### 2.1.1 - Looking at your data
-    * ##### 2.1.2 - Selecting a Subset of Columns
-    * ##### 2.1.3 - Filtering the data
-    * ##### 2.1.4 - Case Statements
-    * ##### 2.1.5 - Filling in Null Values (fillna/colasce)
-    * ##### 2.1.6 - How to Properly Union Your DataFrames
-    * ##### 2.1.7 - [Equalities with Null Values](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%206%20-%20Equalities%20with%20Null%20Values.ipynb)
-    * ##### 2.1.8 - [Performing CLEAN Joins](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%203%20-%20Joins/Section%201%20-%20A%20Basic%20Join.ipynb)
-    * ##### 2.1.9 - [Range Joins Conditions (WIP)](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%203%20-%20Joins/Section%204%20-%20Range%20Join%20Conditions%20%5BTODO%5D.ipynb)
-* #### 2.2 - [Spark Functions aren't Enough, I Need my Own Functions! (WIP)]()
-* #### 2.3 - [What the Heck are Spark Literals?](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%203%20-%20What%20the%20Heck%20are%20Spark%20Literals%3F.ipynb)
-* #### 2.4 - [Working with Decimal Types (WIP)]()
-* #### 2.5 - [Why did my Decimals overflow :( (WIP)]()
+    * ##### 2.1.1 - Looking at your data (`collect`/`head`/`toPandas`)
+    * ##### 2.1.2 - Selecting a Subset of Columns (`drop`/`select`)
+    * ##### 2.1.3 - Filtering Data (`where`/`filter`)
+    * ##### 2.1.4 - Case Statements (`when`/`otherwise`)
+    * ##### 2.1.4 - [Constant Values](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201.4%20-%20Constant%20Values.ipynb) (`lit`)
+    * ##### 2.1.5 - Filling in Null Values (`fill`/`fillna`/`colasce`)
+    * ##### 2.1.6 - Spark Functions aren't Enough, I Need my Own Functions! (`udf`)
+    * ##### 2.1.7 - Unioning Multiple Dataframes (`union`)
+    * ##### 2.1.8 - [Performing Joins (clean one)](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201.8%20-%20Performing%20Joins%20(clean%20one).ipynb) (`join`)
+    * ##### 2.1.8 - [Range Join Conditions (WIP)](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201.9%20-%20Range%20Join%20Conditions%20(WIP).ipynb) (`join`)
+* #### 2.2 - [Equalities with Null Values](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%202%20-%20Equalities%20with%20Null%20Values.ipynb)
+* #### 2.3 - Working with Decimal Types
+* #### 2.4 - Why did my Decimals overflow :(
 
 ## Chapter 3 - Aggregates:
-* #### 4.1 - [Clean Aggregations](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%204%20-%20Aggregates/Section%201%20-%20Clean%20Aggregations.ipynb)
-* #### 4.2 - [Non Deterministic Behaviours](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%204%20-%20Aggregates/Section%202%20-%20Non%20Deterministic%20Behaviours.ipynb)
+* #### 4.1 - [Clean Aggregations](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%203%20-%20Aggregates/Section%201%20-%20Clean%20Aggregations.ipynb)
+* #### 4.2 - [Non Deterministic Behaviours](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%203%20-%20Aggregates/Section%202%20-%20Non%20Deterministic%20Ordering%20for%20GroupBys.ipynb)
 
 ## Chapter 4 - Window Objects:
-* #### 5.1 - [Default Behaviors of Window Objects](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%205%20-%20Window%20Objects/Section%201%20-%20Default%20Behaviours%20of%20OrderBy%20on%20a%20Window%20Object.ipynb)
-* #### 5.2 - [Proper Ordering of Rows Using a Window Object](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%205%20-%20Aggregates/Section%202%20-%20High%20Frequency%20Data.ipynb)
+* #### 5.1 - [Default Ordering on a Window Object](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%205%20-%20Window%20Objects/Section%201%20-%20Default%20Behaviour%20of%20a%20Window%20Object.ipynb)
+* #### 5.2 - [Ordering High Frequency Data with a Window Object](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%205%20-%20Window%20Objects/Section%202%20-%20Ordering%20High%20Frequency%20Data%20with%20a%20Window%20Object.ipynb)
 
 ## Chapter 5 - Error Logs:
 
 ## Chapter 6 - Tuning & Spark Parameters:
-* #### 5.1 - [Default Behaviors of Window Objects]
 
 ## Chapter 7 - High Performance Code:
 * #### 7.1 - Improving Joins
     * ##### 7.1.1 - [Filter Pushdown](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%207%20-%20High%20Performance%20Code/Section%201.1%20-%20Filter%20Pushdown.ipynb)
     * ##### 7.1.2 - [Joining on Skewed Data (Null Keys)](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%207%20-%20High%20Performance%20Code/Section%201.2%20-%20Joins%20on%20Skewed%20Data%20(Null%20Keys).ipynb)
     * ##### 7.1.3 - [Joining on Skewed Data (High Frequency Keys I)](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%207%20-%20High%20Performance%20Code/Section%201.3%20-%20Joins%20on%20Skewed%20Data%20(High%20Frequency%20Keys%20I).ipynb)
-    * ##### 7.1.4 - [Joining on Skewed Data (High Frequency Keys II) (WIP)](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%207%20-%20High%20Performance%20Code/Section%201.4%20-%20Joins%20on%20Skewed%20Data%20(High%20Frequency%20Keys%20II)%20(WIP).ipynb)
+    * ##### 7.1.4 - Joining on Skewed Data (High Frequency Keys II) (WIP)
