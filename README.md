@@ -19,33 +19,29 @@ This is a public repo documenting all of the "best practices" of writing PySpark
     * ##### 2.1.5 - Filling in Null Values (fillna/colasce)
     * ##### 2.1.6 - How to Properly Union Your DataFrames
     * ##### 2.1.7 - [Equalities with Null Values](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%206%20-%20Equalities%20with%20Null%20Values.ipynb)
+    * ##### 2.1.8 - [Performing CLEAN Joins](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%203%20-%20Joins/Section%201%20-%20A%20Basic%20Join.ipynb)
+    * ##### 2.1.9 - [Range Joins Conditions (WIP)](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%203%20-%20Joins/Section%204%20-%20Range%20Join%20Conditions%20%5BTODO%5D.ipynb)
 * #### 2.2 - [Spark Functions aren't Enough, I Need my Own Functions! (WIP)]()
 * #### 2.3 - [What the Heck are Spark Literals?](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%203%20-%20What%20the%20Heck%20are%20Spark%20Literals%3F.ipynb)
 * #### 2.4 - [Working with Decimal Types (WIP)]()
 * #### 2.5 - [Why did my Decimals overflow :( (WIP)]()
 
-## Chapter 3 - Joins:
-* #### 3.1 - [A Basic Join](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%203%20-%20Joins/Section%201%20-%20A%20Basic%20Join.ipynb)
-* #### 3.2 - [Improving Joins](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%203%20-%20Joins/Section%202%20-%20Imporving%20Joins.ipynb)
-* #### 3.3 - [Joining on Skewed Data](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%203%20-%20Joins/Section%203%20-%20Joins%20on%20Skewed%20Data.ipynb)
-* #### 3.4 - [Range Joins Conditions (WIP)](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%203%20-%20Joins/Section%204%20-%20Range%20Join%20Conditions%20%5BTODO%5D.ipynb)
-
-## Chapter 4 - Aggregates:
+## Chapter 3 - Aggregates:
 * #### 4.1 - [Clean Aggregations](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%204%20-%20Aggregates/Section%201%20-%20Clean%20Aggregations.ipynb)
 * #### 4.2 - [Non Deterministic Behaviours](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%204%20-%20Aggregates/Section%202%20-%20Non%20Deterministic%20Behaviours.ipynb)
 
-## Chapter 5 - Window Objects:
+## Chapter 4 - Window Objects:
 * #### 5.1 - [Default Behaviors of Window Objects](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%205%20-%20Window%20Objects/Section%201%20-%20Default%20Behaviours%20of%20OrderBy%20on%20a%20Window%20Object.ipynb)
 * #### 5.2 - [Proper Ordering of Rows Using a Window Object](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%205%20-%20Aggregates/Section%202%20-%20High%20Frequency%20Data.ipynb)
 
-## Chapter 6 - Error Logs:
+## Chapter 5 - Error Logs:
 
 ## Chapter 6 - Tuning & Spark Parameters:
 * #### 5.1 - [Default Behaviors of Window Objects]
 
 ## Chapter 7 - High Performance Code:
 * #### 7.1 - Improving Joins
-    * ##### 7.1.1 - [Filter Pushdown](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%203%20-%20Joins/Section%202%20-%20Imporving%20Joins.ipynb)
-    * ##### 7.1.2 - [Joining on Skewed Data (Null Keys)](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%203%20-%20Joins/Section%203%20-%20Joins%20on%20Skewed%20Data.ipynb)
-    * ##### 7.1.3 - [Joining on Skewed Data (High Frequency Keys I)](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%203%20-%20Joins/Section%203%20-%20Joins%20on%20Skewed%20Data.ipynb)
-    * ##### 7.1.3 - [Joining on Skewed Data (High Frequency Keys II)](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%203%20-%20Joins/Section%203%20-%20Joins%20on%20Skewed%20Data.ipynb)
+    * ##### 7.1.1 - [Filter Pushdown](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%207%20-%20High%20Performance%20Code/Section%201.1%20-%20Filter%20Pushdown.ipynb)
+    * ##### 7.1.2 - [Joining on Skewed Data (Null Keys)](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%207%20-%20High%20Performance%20Code/Section%201.2%20-%20Joins%20on%20Skewed%20Data%20(Null%20Keys).ipynb)
+    * ##### 7.1.3 - [Joining on Skewed Data (High Frequency Keys I)](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%207%20-%20High%20Performance%20Code/Section%201.3%20-%20Joins%20on%20Skewed%20Data%20(High%20Frequency%20Keys%20I).ipynb)
+    * ##### 7.1.4 - [Joining on Skewed Data (High Frequency Keys II) (WIP)](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%207%20-%20High%20Performance%20Code/Section%201.4%20-%20Joins%20on%20Skewed%20Data%20(High%20Frequency%20Keys%20II)%20(WIP).ipynb)
