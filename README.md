@@ -13,18 +13,18 @@ This is a public repo documenting all of the "best practices" of writing PySpark
 ## Chapter 2 - Exploring the Spark APIs:
 * #### 2.1 - [Performing your First Transformations](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201%20-%20Performing%20your%20First%20Transformations.ipynb)
     * ##### 2.1.1  - [Looking at Your Data](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201.1%20-%20Looking%20at%20Your%20Data.ipynb) (`collect`/`head`/`take`/`first`/`toPandas`/`show`)
-    * ##### 2.1.2  - [Selecting a Subset of Columns](Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201.2%20-%20Selecting%20a%20Subset%20of%20Columns.ipynb) (`drop`/`select`)
-    * ##### 2.1.3  - Creating new Columns (`withColumn`/`withColumnRenamed`)
-    * ##### 2.1.3  - Casting Columns to a Different Type (`cast`)
-    * ##### 2.1.4  - Filtering Data (`where`/`filter`/`isin`)
-    * ##### 2.1.5  - Equility Statements in Spark
-    * ##### 2.1.6  - Case Statements (`when`/`otherwise`)
-    * ##### 2.1.7  - [Constant Values](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201.4%20-%20Constant%20Values.ipynb) (`lit`)
-    * ##### 2.1.8  - Filling in Null Values (`fill`/`fillna`/`colasce`)
-    * ##### 2.1.9  - Spark Functions aren't Enough, I Need my Own Functions! (`udf`)
-    * ##### 2.1.10  - Unioning Multiple Dataframes (`union`)
-    * ##### 2.1.11 - One to Many Rows (`explode`)
-    * ##### 2.1.12 - [Performing Joins (clean one)](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201.8%20-%20Performing%20Joins%20(clean%20one).ipynb) (`join`)
+    * ##### 2.1.2  - [Selecting a Subset of Columns](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201.2%20-%20Selecting%20a%20Subset%20of%20Columns.ipynb) (`drop`/`select`)
+    * ##### 2.1.3  - [Creating New Columns and Transforming Data](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201.3%20-%20Creating%20New%20Columns%20and%20Transforming%20Data.ipynb) (`withColumn`/`withColumnRenamed`)
+    * ##### 2.1.4  - [Constant Values and Column Expressions](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201.4%20-%20Constant%20Values%20and%20Column%20Expressions.ipynb) (`lit`/`col`)
+    * ##### 2.1.5  - Casting Columns to a Different Type (`cast`)
+    * ##### 2.1.6  - Filtering Data (`where`/`filter`/`isin`)
+    * ##### 2.1.7  - Equility Statements in Spark
+    * ##### 2.1.8  - Case Statements (`when`/`otherwise`)
+    * ##### 2.1.9  - Filling in Null Values (`fill`/`fillna`/`colasce`)
+    * ##### 2.1.10  - Spark Functions aren't Enough, I Need my Own Functions! (`udf`)
+    * ##### 2.1.11  - Unioning Multiple Dataframes (`union`)
+    * ##### 2.1.12 - One to Many Rows (`explode`)
+    * ##### 2.1.13 - [Performing Joins (clean one)](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201.8%20-%20Performing%20Joins%20(clean%20one).ipynb) (`join`)
     * ##### 2.1.12 - [Range Join Conditions (WIP)](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201.9%20-%20Range%20Join%20Conditions%20(WIP).ipynb) (`join`)
 * #### 2.2 - Decimal Types
     * ##### 2.1 - Working with Decimal Types
