@@ -1,3 +1,4 @@
-id,species_id,name,birthday,color
-1,1,"King",2014-11-22 12:30:31,"brown"
-2,3,"Argus",2016-11-22 10:05:10,
+id,breed_id,nickname,birthday,age,color
+1,1,"King",2014-11-22 12:30:31,5,"brown"
+2,3,"Argus",2016-11-22 10:05:10,10,
+3,1,"Chewie",2016-11-22 10:05:10,15,
