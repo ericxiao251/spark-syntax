@@ -12,9 +12,11 @@ This is a public repo documenting all of the "best practices" of writing PySpark
 
 ## Chapter 2 - Exploring the Spark APIs:
 * #### 2.1 - Non-Trival Data Structures in Spark
-    * ##### 2.1.1  - Struct Types (`StructType`)
-    * ##### 2.1.2  - Arrays/Lists (`ArrayType`)
-    * ##### 2.1.2  - Maps/Dictionaries (`MapType`)
+    * ##### 2.1.1 - Struct Types (`StructType`)
+    * ##### 2.1.2 - Arrays/Lists (`ArrayType`)
+    * ##### 2.1.3 - Maps/Dictionaries (`MapType`)
+    * ##### 2.1.4 - Decimals and Why did my Decimals overflow :( (`DecimalType`)
+    * ##### 2.1.5 - Dates and Timestamps and Timezone aware data (`DateType`/`TimestampType`)
 * #### 2.2 - [Performing your First Transformations](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201%20-%20Performing%20your%20First%20Transformations.ipynb)
     * ##### 2.2.1  - [Looking at Your Data](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%202.1%20-%20Looking%20at%20Your%20Data.ipynb) (`collect`/`head`/`take`/`first`/`toPandas`/`show`)
     * ##### 2.2.2  - [Selecting a Subset of Columns](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section2201.2%20-%20Selecting%20a%20Subset%20of%20Columns.ipynb) (`drop`/`select`)
@@ -26,16 +28,11 @@ This is a public repo documenting all of the "best practices" of writing PySpark
     * ##### 2.2.8  - [Case Statements](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201.2%20-%20Case%20Statements.ipynb) (`when`/`otherwise`)
     * ##### 2.2.9  - [Filling in Null Values](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%202.9%20-%20Filling%20in%20Null%20Values.ipynb) (`fillna`/`coalesce`)
     * ##### 2.2.10  - [Spark Functions aren't Enough, I Need my Own!](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the220Spark%20APIs/Section%201.10%20-%20Spark%20Functions%20aren't%20Enough%2C%20I%20Need%20my%20Own!.ipynb) (`udf`/`pandas_udf`)
-    * ##### 2.2.11  - [Unionizing Multiple Dataframes](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201211%20%20-%20Unionizing%20Multiple%20Dataframes.ipynb) (`union`)
-    * ##### 2.2.12 - [One to Many Rows](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%202.12%20-%20One%20to%20Many%20Rows.ipynb) (`explode`)
-    * ##### 2.2.13 - [Performing Joins (clean one)](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section2201.13%20-%20Performing%20Joins%20(clean%20one).ipynb) (`join`)
-    * ##### 2.2.14 - [Range Join Conditions (WIP)](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section2201.14%20-%20Range%20Join%20Conditions%20(WIP).ipynb) (`join`)
-* #### 2.2 - Decimal Types
-    * ##### 2.1 - Working with Decimal Types
-    * ##### 2.2 - Why did my Decimals overflow :(
-* #### 2.3 - Dates and Datetime (Timestamps) Types
-    * ##### 3.1 - Working with Date and Datetime Types
-    * ##### 3.2 - Timezone aware data
+    * ##### 2.2.11  - [Unionizing Multiple Dataframes](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201.11%20%20-%20Unionizing%20Multiple%20Dataframes.ipynb) (`union`)
+    * ##### 2.2.12 - [Performing Joins (clean one)](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section2201.12%20-%20Performing%20Joins%20(clean%20one).ipynb) (`join`)
+* #### 2.3 More Complex Trasnformations
+    * ##### 2.3.1 - [One to Many Rows](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%203.1%20-%20One%20to%20Many%20Rows.ipynb) (`explode`)
+    * ##### 2.3.2 - [Range Join Conditions (WIP)](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%203.2%20-%20Range%20Join%20Conditions%20(WIP).ipynb) (`join`)
 
 ## Chapter 3 - Aggregates:
 * #### 4.1 - [Clean Aggregations](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%203%20-%20Aggregates/Section%201%20-%20Clean%20Aggregations.ipynb)
