@@ -16,9 +16,9 @@ This is a public repo documenting all of the "best practices" of writing PySpark
     * ##### 2.1.2  - [Selecting a Subset of Columns](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201.2%20-%20Selecting%20a%20Subset%20of%20Columns.ipynb) (`drop`/`select`)
     * ##### 2.1.3  - [Creating New Columns and Transforming Data](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201.3%20-%20Creating%20New%20Columns%20and%20Transforming%20Data.ipynb) (`withColumn`/`withColumnRenamed`)
     * ##### 2.1.4  - [Constant Values and Column Expressions](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201.4%20-%20Constant%20Values%20and%20Column%20Expressions.ipynb) (`lit`/`col`)
-    * ##### 2.1.5  - Casting Columns to a Different Type (`cast`)
-    * ##### 2.1.6  - Filtering Data (`where`/`filter`/`isin`)
-    * ##### 2.1.7  - Equility Statements in Spark
+    * ##### 2.1.5  - [Casting Columns to a Different Type](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201.5%20-%20Casting%20Columns%20to%20Different%20Type.ipynb) (`cast`)
+    * ##### 2.1.6  - [Filtering Data](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201.6%20-%20Filtering%20Data.ipynb) (`where`/`filter`/`isin`)
+    * ##### 2.1.7  - [Equality Statements in Spark and Comparisons with Nulls](https://github.com/ericxiao251/spark-syntax/blob/master/src//Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201.7%20-%20Equality%20Statements%20in%20Spark.ipynb#Case-3:-Equality-Statements-with-Null-Values) (`isNotNull()`/`isNull()`)
     * ##### 2.1.8  - Case Statements (`when`/`otherwise`)
     * ##### 2.1.9  - Filling in Null Values (`fill`/`fillna`/`colasce`)
     * ##### 2.1.10  - Spark Functions aren't Enough, I Need my Own Functions! (`udf`)
@@ -32,7 +32,6 @@ This is a public repo documenting all of the "best practices" of writing PySpark
 * #### 2.3 - Dates and Datetime (Timestamps) Types
     * ##### 3.1 - Working with Date and Datetime Types
     * ##### 3.2 - Timezone aware data
-* #### 2.2 - [Equalities with Null Values](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%202%20-%20Equalities%20with%20Null%20Values.ipynb)
 
 ## Chapter 3 - Aggregates:
 * #### 4.1 - [Clean Aggregations](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%203%20-%20Aggregates/Section%201%20-%20Clean%20Aggregations.ipynb)
