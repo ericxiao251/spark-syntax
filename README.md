@@ -23,7 +23,7 @@ This is a public repo documenting all of the "best practices" of writing PySpark
     * ##### 2.1.9  - [Filling in Null Values](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201.9%20-%20Filling%20in%20Null%20Values.ipynb) (`fillna`/`coalesce`)
     * ##### 2.1.10  - [Spark Functions aren't Enough, I Need my Own!](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201.10%20-%20Spark%20Functions%20aren't%20Enough%2C%20I%20Need%20my%20Own!.ipynb) (`udf`/`pandas_udf`)
     * ##### 2.1.11  - [Unionizing Multiple Dataframes](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201.11%20%20-%20Unionizing%20Multiple%20Dataframes.ipynb) (`union`)
-    * ##### 2.1.12 - One to Many Rows (`explode`)
+    * ##### 2.1.12 - [One to Many Rows](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201.12%20-%20One%20to%20Many%20Rows.ipynb) (`explode`)
     * ##### 2.1.13 - [Performing Joins (clean one)](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201.13%20-%20Performing%20Joins%20(clean%20one).ipynb) (`join`)
     * ##### 2.1.14 - [Range Join Conditions (WIP)](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201.14%20-%20Range%20Join%20Conditions%20(WIP).ipynb) (`join`)
 * #### 2.2 - Decimal Types
