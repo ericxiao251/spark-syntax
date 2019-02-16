@@ -43,11 +43,20 @@ This is a public repo documenting all of the "best practices" of writing PySpark
 
 ## Chapter 5 - Error Logs:
 
-## Chapter 6 - Tuning & Spark Parameters:
+## Chapter 6 - Understanding Spark Performance:
+* #### 6.1 - Primer to Understanding Your Spark Application
+    * #### 6.1.1 - Understanding how Spark Works
+    * #### 6.1.1 - Understanding the SparkUI
+    * #### 6.1.2 - Understanding how the DAG is Created
+* #### 6.2 - Analyzing your Spark Application
+    * #### 6.1 - Looking for Skew in a Stage
+    * #### 6.2 - Looking for Skew in the DAG
+    * #### 6.3 - How to Determine the Number of Partitions to Use
+* #### 6.3 - How to Analyze the Skew of Your Data
 
 ## Chapter 7 - High Performance Code:
 * #### 7.1 - Improving Joins
     * ##### 7.1.1 - [Filter Pushdown](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%207%20-%20High%20Performance%20Code/Section%201.1%20-%20Filter%20Pushdown.ipynb)
     * ##### 7.1.2 - [Joining on Skewed Data (Null Keys)](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%207%20-%20High%20Performance%20Code/Section%201.2%20-%20Joins%20on%20Skewed%20Data%20(Null%20Keys).ipynb)
     * ##### 7.1.3 - [Joining on Skewed Data (High Frequency Keys I)](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%207%20-%20High%20Performance%20Code/Section%201.3%20-%20Joins%20on%20Skewed%20Data%20(High%20Frequency%20Keys%20I).ipynb)
-    * ##### 7.1.4 - Joining on Skewed Data (High Frequency Keys II) (WIP)
+    * ##### 7.1.4 - Joining on Skewed Data (High Frequency Keys II)
