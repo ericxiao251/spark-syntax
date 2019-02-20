@@ -13,7 +13,6 @@ This is a public repo documenting all of the "best practices" of writing PySpark
 ## Chapter 2 - Exploring the Spark APIs:
 * #### 2.1 - Non-Trival Data Structures in Spark
     * ##### 2.1.1 - Struct Types (`StructType`)
-    * ##### 2.1.2 - Arrays/Lists (`ArrayType`)
     * ##### 2.1.3 - Maps/Dictionaries (`MapType`)
     * ##### 2.1.2 - [Arrays and Lists](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201.2%20-%20Arrays%20and%20Lists.ipynb) (`ArrayType`)
     * ##### 2.1.4 - [Decimals and Why did my Decimals overflow :(](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201.4%20-%20Decimals%20and%20Why%20did%20my%20Decimals%20Overflow.ipynb) (`DecimalType`)
