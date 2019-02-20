@@ -13,10 +13,9 @@ This is a public repo documenting all of the "best practices" of writing PySpark
 ## Chapter 2 - Exploring the Spark APIs:
 * #### 2.1 - Non-Trival Data Structures in Spark
     * ##### 2.1.1 - Struct Types (`StructType`)
-    * ##### 2.1.3 - Maps/Dictionaries (`MapType`)
     * ##### 2.1.2 - [Arrays and Lists](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201.2%20-%20Arrays%20and%20Lists.ipynb) (`ArrayType`)
+    * ##### 2.1.3 - [Maps and Dictionaries](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201.3%20-%20Maps%20and%20Dictionaries.ipynb) (`MapType`)
     * ##### 2.1.4 - [Decimals and Why did my Decimals overflow :(](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201.4%20-%20Decimals%20and%20Why%20did%20my%20Decimals%20Overflow.ipynb) (`DecimalType`)
-    * ##### 2.1.5 - Dates and Timestamps and Timezone aware data (`DateType`/`TimestampType`)
 * #### 2.2 - [Performing your First Transformations](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%202%20-%20Performing%20your%20First%20Transformations.ipynb)
     * ##### 2.2.1  - [Looking at Your Data](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%202.1%20-%20Looking%20at%20Your%20Data.ipynb) (`collect`/`head`/`take`/`first`/`toPandas`/`show`)
     * ##### 2.2.2  - [Selecting a Subset of Columns](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%202.2%20-%20Selecting%20a%20Subset%20of%20Columns.ipynb) (`drop`/`select`)
