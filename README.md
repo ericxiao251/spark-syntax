@@ -11,7 +11,7 @@ This is a public repo documenting all of the "best practices" of writing PySpark
 * #### 1.4 - [More Comfortable with SQL?](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%201%20-%20Basics/Section%204%20-%20More%20Comfortable%20with%20SQL%3F.ipynb)
 
 ## Chapter 2 - Exploring the Spark APIs:
-* #### 2.1 - Non-Trival Data Structures in Spark
+* #### 2.1 - Non-Trivial Data Structures in Spark
     * ##### 2.1.1 - [Struct Types](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201.1%20-%20Struct%20Types.ipynb) (`StructType`)
     * ##### 2.1.2 - [Arrays and Lists](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201.2%20-%20Arrays%20and%20Lists.ipynb) (`ArrayType`)
     * ##### 2.1.3 - [Maps and Dictionaries](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%201.3%20-%20Maps%20and%20Dictionaries.ipynb) (`MapType`)
@@ -29,7 +29,7 @@ This is a public repo documenting all of the "best practices" of writing PySpark
     * ##### 2.2.10  - [Spark Functions aren't Enough, I Need my Own!](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%202.10%20-%20Spark%20Functions%20aren't%20Enough%2C%20I%20Need%20my%20Own!.ipynb) (`udf`/`pandas_udf`)
     * ##### 2.2.11  - [Unionizing Multiple Dataframes](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%202.11%20%20-%20Unionizing%20Multiple%20Dataframes.ipynb) (`union`)
     * ##### 2.2.12 - [Performing Joins (clean one)](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%202.12%20-%20Performing%20Joins%20(clean%20one).ipynb) (`join`)
-* #### 2.3 More Complex Trasnformations
+* #### 2.3 More Complex Transformations
     * ##### 2.3.1 - [One to Many Rows](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%203.1%20-%20One%20to%20Many%20Rows.ipynb) (`explode`)
     * ##### 2.3.2 - [Range Join Conditions (WIP)](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%203.2%20-%20Range%20Join%20Conditions%20(WIP).ipynb) (`join`)
 
