@@ -1,5 +1,5 @@
 ### Spark API Documents
-I always find myself referencing the `PySpark API` documentations and have it opened as a seperate browser at work. A majority of your Spark  application will be written with the functions found in the document.
+I always find myself referencing the `PySpark API` documentation and have it opened as a seperate browser at work. A majority of your Spark application will be written with the functions found in the document.
 
 It can be found with this link (I suggest you bookmark it 😀):
 
@@ -9,7 +9,7 @@ It can be found with this link (I suggest you bookmark it 😀):
 When in doubt ask Google, there are a lot of crowdsourced questions and answers on Stack Overflow.
 
 ### Companies that Contribute to Spark  
-**Databricks** and **Cloudera** contribute heavily to spark and they provide a lot of good blogs about writting performant Spark code.
+**Databricks** and **Cloudera** contribute heavily to Spark and they provide a lot of good blogs about writting performant Spark code.
 
 **Note:** The author of Spark, Matei Zaharia also cofounded Databricks the company.
 
@@ -24,7 +24,7 @@ The O'reilly books on Spark is how I got into Spark. They are either written by 
 The two that I would recommend are:
 * [Learning Spark: Lightning-Fast Big Data Analysis](https://www.amazon.ca/Learning-Spark-Lightning-Fast-Data-Analysis/dp/1449358624)
     * Back in the early days of Spark, this was the only book out there. I started off with this book. It gives a nice overview of everything in Spark.  
-    * It might be a bit outdated but none-the-less it will give you an apperciation for how far Spark has come.  
+    * It might be a bit outdated but none-the-less it will give you an appreciation for how far Spark has come.
     * This is written by Holden Karau and Matei Zahario most noticably.
 
 * [Spark: The Definitive Guide: Big Data Processing Made Simple](https://www.amazon.ca/Spark-Definitive-Guide-Processing-Simple/dp/1491912219/ref=pd_lpo_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=KDD7QV3DP5X6RRM4HR14)
@@ -32,6 +32,6 @@ The two that I would recommend are:
     * This book is written by Matei Zahario most noticably.
 
 ### Spark Release Docs
-Spark is an open-source project under Apache, and release new features commonly. If you want to be up-to-date with the newest features I recommend following their releases/news:
+Spark is an open-source project under Apache, and releases new features regularly. If you want to be up-to-date with the newest features I recommend following their releases/news:
 
 [Spark Releases](https://spark.apache.org/releases/)
