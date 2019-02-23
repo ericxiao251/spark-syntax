@@ -46,8 +46,9 @@ This is a public repo documenting all of the "best practices" of writing PySpark
 ## Chapter 6 - Understanding Spark Performance:
 * #### 6.1 - Primer to Understanding Your Spark Application
     * #### 6.1.1 - Understanding how Spark Works
-    * #### 6.1.1 - Understanding the SparkUI
-    * #### 6.1.2 - Understanding how the DAG is Created
+    * #### 6.1.2 - Understanding the SparkUI
+    * #### 6.1.3 - Understanding how the DAG is Created
+    * #### 6.1.4 - Understanding how Memory is Allocated
 * #### 6.2 - Analyzing your Spark Application
     * #### 6.1 - Looking for Skew in a Stage
     * #### 6.2 - Looking for Skew in the DAG
