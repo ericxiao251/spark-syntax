@@ -85,10 +85,34 @@ z = x + y
 
 Similar to the example above, but here we see that the last transformation `z = x + y` depends on the previous transformations. So we will need to collect all the work done on the `Worker Nodes` to the `Driver Node` and perform the final transformation.
 
-## Jobs, Stages and Tasks, what are They?
+## Key Terms
+
+**Driver Node**
+
+Learnt above.
+
+**Worker**
+
+Learnt above.
+
+**Executor**
+
+A process launched from an application on a `Worker Node`, that runs tasks and keeps data in memory or disk storage across them. Each application has its own executors.
 
 **Jobs**
 
+Job A parallel computation consisting of multiple tasks that gets spawned in response to a Spark action.
+
 **Stages**
 
+Smaller set of tasks inside any job.
+
 **Tasks**
+
+Unit of work that will be sent to one executor.
+
+[Source](https://www.slideshare.net/DatioBD/apache-spark-ii-sparksql)
+
+![](https://github.com/ericxiao251/spark-syntax/blob/master/src/images/key-terms.jpg)
+
+[Source](https://www.oreilly.com/library/view/learning-spark/9781449359034/)
