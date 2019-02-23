@@ -22,7 +22,7 @@ Spark is a distributed computing library that can be used in either Python, Scal
 
 This is very similar to how a `multi-processed` application would work, just with more processing juice. Each `Node` is essentially a computer running multiple process running at once.
 
-![](https://github.com/ericxiao251/spark-syntax/blob/master/src/images/master-slave.jpg)
+![](https://github.com/ericxiao251/spark-syntax/blob/master/src/images/master-slave.png)
 
 **Master/Slave Architecture**
 
@@ -42,7 +42,7 @@ For now this is all you need to know, we will look into why Spark works this way
 
 When the `Driver Node` actually starts to do some work, it communications and distributes work using a technique called "MapReduce". There are two essential behaviors of a MapReduce application, `map` and `reduce`.
 
-![](https://github.com/ericxiao251/spark-syntax/blob/master/src/images/mapreduce.jpg)
+![](https://github.com/ericxiao251/spark-syntax/blob/master/src/images/mapreduce.png)
 
 **Map**
 
@@ -113,6 +113,6 @@ Unit of work that will be sent to one executor.
 
 [Source](https://www.slideshare.net/DatioBD/apache-spark-ii-sparksql)
 
-![](https://github.com/ericxiao251/spark-syntax/blob/master/src/images/key-terms.jpg)
+![](https://github.com/ericxiao251/spark-syntax/blob/master/src/images/key-terms.png)
 
 [Source](https://www.oreilly.com/library/view/learning-spark/9781449359034/)

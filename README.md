@@ -45,7 +45,7 @@ This is a public repo documenting all of the "best practices" of writing PySpark
 
 ## Chapter 6 - Understanding Spark Performance:
 * #### 6.1 - Primer to Understanding Your Spark Application
-    * #### 6.1.1 - Understanding how Spark Works
+    * #### 6.1.1 - [Understanding how Spark Works](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%206%20-%20Tuning%20%26%20Spark%20Parameters/Section%201.1%20-%20Understanding%20how%20Spark%20Works.md)
     * #### 6.1.2 - Understanding the SparkUI
     * #### 6.1.3 - Understanding how the DAG is Created
     * #### 6.1.4 - Understanding how Memory is Allocated
