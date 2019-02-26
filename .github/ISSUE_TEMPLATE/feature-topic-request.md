@@ -13,5 +13,5 @@ assignees: ''
 **Describe the format of the answer/section:**
 <!-- Describe if the section that would cover this topic, would contain dataframe examples, alternative solutions, etc. -->
 
-**Additional Context/Information: **
+**Additional Context/Information:**
 <!-- Provide a concrete example of where you would use the knowledge gained from this topic. -->
