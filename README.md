@@ -38,6 +38,11 @@ If you have any topics that I could potentially go over, please create an **issu
 * #### 2.3 More Complex Transformations
     * ##### 2.3.1 - [One to Many Rows](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%203.1%20-%20One%20to%20Many%20Rows.ipynb) (`explode`)
     * ##### 2.3.2 - [Range Join Conditions (WIP)](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%202%20-%20Exploring%20the%20Spark%20APIs/Section%203.2%20-%20Range%20Join%20Conditions%20(WIP).ipynb) (`join`)
+* #### 2.4 Potential Performance Boosting Functions
+    * ##### 2.4.1 - (`repartition`)
+    * ##### 2.4.2 - (`coalesce`)
+    * ##### 2.4.2 - (`cache`)
+    * ##### 2.4.2 - (`broadcast`)
 
 ## Chapter 3 - Aggregates:
 * #### 4.1 - [Clean Aggregations](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%203%20-%20Aggregates/Section%201%20-%20Clean%20Aggregations.ipynb)
@@ -62,8 +67,20 @@ If you have any topics that I could potentially go over, please create an **issu
 * #### 6.3 - How to Analyze the Skew of Your Data
 
 ## Chapter 7 - High Performance Code:
+* #### 7.0 - The Types of Join Strategies in Spark
+  * ##### 7.0.1 - You got a Small Table? (`Broadcast Join`)
+  * ##### 7.0.2 - The Ideal Strategy (`BroadcastHashJoin`)
+  * ##### 7.0.3 - The Default Strategy (`SortMergeJoin`)
 * #### 7.1 - Improving Joins
     * ##### 7.1.1 - [Filter Pushdown](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%207%20-%20High%20Performance%20Code/Section%201.1%20-%20Filter%20Pushdown.ipynb)
     * ##### 7.1.2 - [Joining on Skewed Data (Null Keys)](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%207%20-%20High%20Performance%20Code/Section%201.2%20-%20Joins%20on%20Skewed%20Data%20(Null%20Keys).ipynb)
     * ##### 7.1.3 - [Joining on Skewed Data (High Frequency Keys I)](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%207%20-%20High%20Performance%20Code/Section%201.3%20-%20Joins%20on%20Skewed%20Data%20(High%20Frequency%20Keys%20I).ipynb)
     * ##### 7.1.4 - Joining on Skewed Data (High Frequency Keys II)
+    * ##### 7.1.5 - Join Ordering
+* #### 7.2 - Repeated Work on a Single Dataset (`caching`)
+    * ##### 7.2.1 - caching layers
+* #### 7.3 - Spark Parameters
+  * ##### 7.3.1 - Running Multiple Spark Applications at Scale (`dynamic allocation`)
+  * ##### 7.3.2 - The magical number `2001` (`partitions`)
+  * ##### 7.3.3 - Using a lot of `UDF`s? (`python memory`)
+* #### 7. - Bloom Filters :o?
