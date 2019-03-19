@@ -1,0 +1,49 @@
+# Summary
+
+- [README](./README.md)
+- Chapter 1 - Basics
+  - [Section 1 - Useful Material](Chapter 1 - Basics/Section 1 - Useful Material.md)
+  - [Section 2 - Creating your First Data Object](Chapter 1 - Basics/Section 2 - Creating your First Data Object.md)
+  - [Section 3 - Reading your First Dataset](Chapter 1 - Basics/Section 3 - Reading your First Dataset.md)
+  - [Section 4 - More Comfortable with SQL](Chapter 1 - Basics/Section 4 - More Comfortable with SQL.md)
+- Chapter 2 - Exploring the Spark APIs
+  - [Section 1.1 - Struct Types](Chapter 2 - Exploring the Spark APIs/Section 1.1 - Struct Types.md)
+  - [Section 1.2 - Arrays and Lists](Chapter 2 - Exploring the Spark APIs/Section 1.2 - Arrays and Lists.md)
+  - [Section 1.3 - Maps and Dictionaries](Chapter 2 - Exploring the Spark APIs/Section 1.3 - Maps and Dictionaries.md)
+  - [Section 1.4 - Decimals and Why did my Decimals Overflow](Chapter 2 - Exploring the Spark APIs/Section 1.4 - Decimals and Why did my Decimals Overflow.md)
+  - [Section 2 - Performing your First Transformations](Chapter 2 - Exploring the Spark APIs/Section 2 - Performing your First Transformations.md)
+  - [Section 2.1 - Looking at Your Data](Chapter 2 - Exploring the Spark APIs/Section 2.1 - Looking at Your Data.md)
+  - [Section 2.2 - Selecting a Subset of Columns](Chapter 2 - Exploring the Spark APIs/Section 2.2 - Selecting a Subset of Columns.md)
+  - [Section 2.3 - Creating New Columns and Transforming Data](Chapter 2 - Exploring the Spark APIs/Section 2.3 - Creating New Columns and Transforming Data.md)
+  - [Section 2.4 - Constant Values and Column Expressions](Chapter 2 - Exploring the Spark APIs/Section 2.4 - Constant Values and Column Expressions.md)
+  - [Section 2.5 - Casting Columns to Different Type](Chapter 2 - Exploring the Spark APIs/Section 2.5 - Casting Columns to Different Type.md)
+  - [Section 2.6 - Filtering Data](Chapter 2 - Exploring the Spark APIs/Section 2.6 - Filtering Data.md)
+  - [Section 2.7 - Equality Statements in Spark and Comparison with Nulls](Chapter 2 - Exploring the Spark APIs/Section 2.7 - Equality Statements in Spark and Comparison with Nulls.md)
+  - [Section 2.8 - Case Statements](Chapter 2 - Exploring the Spark APIs/Section 2.8 - Case Statements.md)
+  - [Section 2.9 - Filling in Null Values](Chapter 2 - Exploring the Spark APIs/Section 2.9 - Filling in Null Values.md)
+  - [Section 2.10 - Spark Functions aren't Enough, I Need my Own!](Chapter 2 - Exploring the Spark APIs/Section 2.10 - Spark Functions aren't Enough, I Need my Own!.md)
+  - [Section 2.11  - Unionizing Multiple Dataframes](Chapter 2 - Exploring the Spark APIs/Section 2.11  - Unionizing Multiple Dataframes.md)
+  - [Section 2.12 - Performing Joins <clean one>](Chapter 2 - Exploring the Spark APIs/Section 2.12 - Performing Joins <clean one>.md)
+  - [Section 3.1 - One to Many Rows](Chapter 2 - Exploring the Spark APIs/Section 3.1 - One to Many Rows.md)
+  - [Section 3.2 - Range Join Conditions <WIP>](Chapter 2 - Exploring the Spark APIs/Section 3.2 - Range Join Conditions <WIP>.md)
+  - [section-template-Copy1](Chapter 2 - Exploring the Spark APIs/section-template-Copy1.md)
+- Chapter 3 - Aggregates
+  - [Section 1 - Clean Aggregations](Chapter 3 - Aggregates/Section 1 - Clean Aggregations.md)
+  - [Section 2 - Non Deterministic Ordering for GroupBys](Chapter 3 - Aggregates/Section 2 - Non Deterministic Ordering for GroupBys.md)
+- Chapter 4 - Window Objects
+  - [Section 1 - Default Behaviour of a Window Object](Chapter 4 - Window Objects/Section 1 - Default Behaviour of a Window Object.md)
+  - [Section 2 - Ordering High Frequency Data with a Window Object](Chapter 4 - Window Objects/Section 2 - Ordering High Frequency Data with a Window Object.md)
+- Chapter 6 - Tuning & Spark Parameters
+  - [Section 1.1 - Understanding how Spark Works](Chapter 6 - Tuning & Spark Parameters/Section 1.1 - Understanding how Spark Works.md)
+- Chapter 7 - High Performance Code
+  - [Section 1.1 - Filter Pushdown](Chapter 7 - High Performance Code/Section 1.1 - Filter Pushdown.md)
+  - [Section 1.2 - Joins on Skewed Data <Null Keys>](Chapter 7 - High Performance Code/Section 1.2 - Joins on Skewed Data <Null Keys>.md)
+  - [Section 1.3 - Joins on Skewed Data <High Frequency Keys I>](Chapter 7 - High Performance Code/Section 1.3 - Joins on Skewed Data <High Frequency Keys I>.md)
+  - [Section 1.4 - Joins on Skewed Data <High Frequency Keys II> <WIP>](Chapter 7 - High Performance Code/Section 1.4 - Joins on Skewed Data <High Frequency Keys II> <WIP>.md)
+- Random
+  - [Agg Optimization oooo](Random/Agg Optimization oooo.md)
+  - [Project before Join](Random/Project before Join.md)
+  - [is it better to do fillna or coalesce spark](Random/is it better to do fillna or coalesce spark.md)
+  - [spark - freqItems](Random/spark - freqItems.md)
+  - [spark-sugar](Random/spark-sugar.md)
+  - [understanding-error-logs](Random/understanding-error-logs.md)
