@@ -1,0 +1,31 @@
+{
+    "gitbook": "3.2.x",
+    "root": "./src",
+    "pdf": {
+        "toc": true,
+        "pageNumbers": true,
+        "fontSize": 14,
+        "paperSize": "a4",
+        "margin": {
+            "right": 62,
+            "left": 62,
+            "top": 56,
+            "bottom": 56
+        }
+    },
+    "plugins": [
+        "-sharing",
+        "katex@1.1.3",
+        "edit-link@2.0.x",
+        "github@2.0.x"
+    ],
+    "pluginsConfig": {
+        "edit-link": {
+            "base": "https://github.com/ericxiao251/spark-syntax/edit/master",
+            "label": "Edit"
+        },
+        "github": {
+            "url": "https://github.com/ericxiao251/spark-syntax"
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "spark-syntax",
+  "version": "0.2.0",
+  "description": "spark-syntax",
+  "main": "index.html",
+  "dependencies": {
+    "gitbook-cli": "2.3.0",
+    "gitbook-plugin-edit-link": "^2.0.2",
+    "gitbook-plugin-github": "^2.0.0",
+    "gitbook-plugin-katex": "^1.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "gitbook:prepare": "gitbook install",
+    "gitbook:watch": "npm run gitbook:prepare && gitbook serve",
+    "gitbook:build": "npm run gitbook:prepare && gitbook build",
+    "gitbook:pdf": "gitbook pdf . ./_book/spark-syntax.pdf",
+    "gitbook:epub": "gitbook epub . ./_book/spark-syntax.epub",
+    "gitbook:mobi": "gitbook mobi . ./_book/spark-syntax.mobi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericxiao251/spark-syntax.git"
+  },
+  "keywords": [
+    "golang"
+  ],
+  "author": "Jan Newmarch",
+  "license": "CC-BY-NC-SA-3.0",
+  "bugs": {
+    "url": "https://github.com/ericxiao251/spark-syntax/issues"
+  },
+  "homepage": "https://github.com/ericxiao251/spark-syntax#readme"
+}
