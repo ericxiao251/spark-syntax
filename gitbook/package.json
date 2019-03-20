@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tumregels/spark-syntax.git"
+    "url": "git+https://github.com/ericxiao251/spark-syntax.git"
   },
   "keywords": [
     "golang"
@@ -28,7 +28,7 @@
   "author": "Jan Newmarch",
   "license": "CC-BY-NC-SA-3.0",
   "bugs": {
-    "url": "https://github.com/tumregels/spark-syntax/issues"
+    "url": "https://github.com/ericxiao251/spark-syntax/issues"
   },
-  "homepage": "https://github.com/tumregels/spark-syntax#readme"
+  "homepage": "https://github.com/ericxiao251/spark-syntax#readme"
 }

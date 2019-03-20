@@ -34,7 +34,7 @@ publish: build pdf epub mobi
 	git checkout -b gh-pages && \
 	git add . && \
 	git commit -am 'update gh-pages' && \
-	git push https://github.com/tumregels/spark-syntax gh-pages --force
+	git push https://github.com/ericxiao251/spark-syntax gh-pages --force
 
 clean:
 	rm -rf _book

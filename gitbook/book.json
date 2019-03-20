@@ -21,11 +21,11 @@
     ],
     "pluginsConfig": {
         "edit-link": {
-            "base": "https://github.com/tumregels/spark-syntax/edit/master",
+            "base": "https://github.com/ericxiao251/spark-syntax/edit/master",
             "label": "Edit"
         },
         "github": {
-            "url": "https://github.com/tumregels/spark-syntax"
+            "url": "https://github.com/ericxiao251/spark-syntax"
         }
     }
 }

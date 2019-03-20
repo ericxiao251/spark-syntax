@@ -9,10 +9,10 @@ If you notice an improvements in terms of typos, spellings, grammar, etc. feel f
 If you have any topics that I could potentially go over, please create an **issue** and describe the topic. I'll try my best to address it 😁.
 
 
-This book is hosted on [github-pages](http://tumregels.github.io/spark-syntax/). 
+This book is hosted on [github-pages](http://ericxiao251.github.io/spark-syntax/). 
 
 Ebook can be downloaded as 
 
-[pdf](https://github.com/tumregels/spark-syntax/raw/gh-pages/spark-syntax.pdf)
-[epub](https://github.com/tumregels/spark-syntax/raw/gh-pages/spark-syntax.epub) 
-[mobi](https://github.com/tumregels/spark-syntax/raw/gh-pages/spark-syntax.mobi)
+[pdf](https://github.com/ericxiao251/spark-syntax/raw/gh-pages/spark-syntax.pdf)
+[epub](https://github.com/ericxiao251/spark-syntax/raw/gh-pages/spark-syntax.epub) 
+[mobi](https://github.com/ericxiao251/spark-syntax/raw/gh-pages/spark-syntax.mobi)
