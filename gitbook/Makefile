@@ -5,7 +5,7 @@ SHELL := /bin/bash
 all: install build
 
 install: # install gitbook-cli
-	npm install 
+	npm install
 
 prepare:
 	npm run gitbook:prepare
@@ -27,14 +27,19 @@ mobi:
 
 publish: build pdf epub mobi
 	cd _book && \
-	git config --global user.name "publisher" && \
-	git config --global user.email "publisher@git.hub" && \
-	git init && \
-	git commit --allow-empty -m 'update gh-pages' && \
+	git config --global user.name "Eric Xiao" && \
+	git config --global user.email "eric.xiao@shopify.com" && \
+	# git init && \
+	# git commit --allow-empty -m 'update gh-pages' && \
 	git checkout -b gh-pages && \
 	git add . && \
 	git commit -am 'update gh-pages' && \
-	git push https://github.com/ericxiao251/spark-syntax gh-pages --force
+	git push original gh-pages --force
+
+generate:
+	python3 convert-ipynb2markdown.py && \
+	python3 gitbook-auto-summary.py && \
+	make publish
 
 clean:
 	rm -rf _book
