@@ -51,12 +51,12 @@ Huge thanks to Levon for turning everything into a gitbook. You can follow his g
     * ##### 2.4.2 - (`broadcast`)
 
 ## Chapter 3 - Aggregates:
-* #### 4.1 - [Clean Aggregations](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%203%20-%20Aggregates/Section%201%20-%20Clean%20Aggregations.ipynb)
-* #### 4.2 - [Non Deterministic Behaviours](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%203%20-%20Aggregates/Section%202%20-%20Non%20Deterministic%20Ordering%20for%20GroupBys.ipynb)
+* #### 3.1 - [Clean Aggregations](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%203%20-%20Aggregates/Section%201%20-%20Clean%20Aggregations.ipynb)
+* #### 3.2 - [Non Deterministic Behaviours](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%203%20-%20Aggregates/Section%202%20-%20Non%20Deterministic%20Ordering%20for%20GroupBys.ipynb)
 
 ## Chapter 4 - Window Objects:
-* #### 5.1 - [Default Ordering on a Window Object](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%205%20-%20Window%20Objects/Section%201%20-%20Default%20Behaviour%20of%20a%20Window%20Object.ipynb)
-* #### 5.2 - [Ordering High Frequency Data with a Window Object](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%205%20-%20Window%20Objects/Section%202%20-%20Ordering%20High%20Frequency%20Data%20with%20a%20Window%20Object.ipynb)
+* #### 4.1 - [Default Ordering on a Window Object](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%205%20-%20Window%20Objects/Section%201%20-%20Default%20Behaviour%20of%20a%20Window%20Object.ipynb)
+* #### 4.2 - [Ordering High Frequency Data with a Window Object](https://github.com/ericxiao251/spark-syntax/blob/master/src/Chapter%205%20-%20Window%20Objects/Section%202%20-%20Ordering%20High%20Frequency%20Data%20with%20a%20Window%20Object.ipynb)
 
 ## Chapter 5 - Error Logs:
 
