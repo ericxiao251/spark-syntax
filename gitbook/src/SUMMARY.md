@@ -26,7 +26,6 @@
   - [Section 2.12 - Performing Joins <clean one>](Chapter 2 - Exploring the Spark APIs/Section 2.12 - Performing Joins <clean one>.md)
   - [Section 3.1 - One to Many Rows](Chapter 2 - Exploring the Spark APIs/Section 3.1 - One to Many Rows.md)
   - [Section 3.2 - Range Join Conditions <WIP>](Chapter 2 - Exploring the Spark APIs/Section 3.2 - Range Join Conditions <WIP>.md)
-  - [section-template-Copy1](Chapter 2 - Exploring the Spark APIs/section-template-Copy1.md)
 - Chapter 3 - Aggregates
   - [Section 1 - Clean Aggregations](Chapter 3 - Aggregates/Section 1 - Clean Aggregations.md)
   - [Section 2 - Non Deterministic Ordering for GroupBys](Chapter 3 - Aggregates/Section 2 - Non Deterministic Ordering for GroupBys.md)
@@ -40,10 +39,3 @@
   - [Section 1.2 - Joins on Skewed Data <Null Keys>](Chapter 7 - High Performance Code/Section 1.2 - Joins on Skewed Data <Null Keys>.md)
   - [Section 1.3 - Joins on Skewed Data <High Frequency Keys I>](Chapter 7 - High Performance Code/Section 1.3 - Joins on Skewed Data <High Frequency Keys I>.md)
   - [Section 1.4 - Joins on Skewed Data <High Frequency Keys II> <WIP>](Chapter 7 - High Performance Code/Section 1.4 - Joins on Skewed Data <High Frequency Keys II> <WIP>.md)
-- Random
-  - [Agg Optimization oooo](Random/Agg Optimization oooo.md)
-  - [Project before Join](Random/Project before Join.md)
-  - [is it better to do fillna or coalesce spark](Random/is it better to do fillna or coalesce spark.md)
-  - [spark - freqItems](Random/spark - freqItems.md)
-  - [spark-sugar](Random/spark-sugar.md)
-  - [understanding-error-logs](Random/understanding-error-logs.md)

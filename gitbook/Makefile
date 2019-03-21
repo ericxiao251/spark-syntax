@@ -5,7 +5,7 @@ SHELL := /bin/bash
 all: install build
 
 install: # install gitbook-cli
-	npm install 
+	npm install
 
 prepare:
 	npm run gitbook:prepare
@@ -35,6 +35,10 @@ publish: build pdf epub mobi
 	git add . && \
 	git commit -am 'update gh-pages' && \
 	git push https://github.com/ericxiao251/spark-syntax gh-pages --force
+
+generate:
+	python3 convert-ipynb2markdown.py && \
+	python3 gitbook-auto-summary.py
 
 clean:
 	rm -rf _book

@@ -21,6 +21,9 @@ os.system(f'rm -rf {markdown_dir}')
 files_ipynb = glob.glob(f'{ipynb_dir}/**/*.ipynb', recursive=True)
 for file_ipynb in files_ipynb:
     file_ipynb = op.abspath(file_ipynb)
+    if 'Random' in file_ipynb:
+        continue
+
     file_md = file_ipynb.replace('src', 'gitbook/src') \
         .replace('.ipynb', '.md') \
         .replace('(', '<').replace(')', '>').replace('?', '')
