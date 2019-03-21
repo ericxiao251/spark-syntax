@@ -27,19 +27,18 @@ mobi:
 
 publish: build pdf epub mobi
 	cd _book && \
-	git config --global user.name "Eric Xiao" && \
-	git config --global user.email "eric.xiao@shopify.com" && \
-	# git init && \
-	# git commit --allow-empty -m 'update gh-pages' && \
+	git config --global user.name "publisher" && \
+	git config --global user.email "publisher@git.hub" && \
+	git init && \
+	git commit --allow-empty -m 'update gh-pages' && \
 	git checkout -b gh-pages && \
 	git add . && \
 	git commit -am 'update gh-pages' && \
-	git push original gh-pages --force
+	git push https://github.com/ericxiao251/spark-syntax gh-pages --force
 
 generate:
 	python3 convert-ipynb2markdown.py && \
-	python3 gitbook-auto-summary.py && \
-	make publish
+	python3 gitbook-auto-summary.py
 
 clean:
 	rm -rf _book
