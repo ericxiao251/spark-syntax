@@ -38,7 +38,8 @@ publish: build pdf epub mobi
 
 generate:
 	python3 convert-ipynb2markdown.py && \
-	python3 gitbook-auto-summary.py
+	python3 gitbook-auto-summary.py && \
+	make publish
 
 clean:
 	rm -rf _book
