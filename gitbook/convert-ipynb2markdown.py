@@ -15,7 +15,7 @@ basedir = op.abspath(op.dirname(__file__))
 markdown_dir = op.join(basedir, 'src')
 ipynb_dir = op.abspath(op.join(basedir, os.pardir, 'src'))
 
-os.system(f'rm -rf {markdown_dir}')
+os.system(f'rm -rf {markdown_dir}/*/')  # delete chapter folders only
 
 # convert ipynb to md
 files_ipynb = glob.glob(f'{ipynb_dir}/**/*.ipynb', recursive=True)
@@ -63,7 +63,3 @@ for file in files:
     content_new = content.replace(style, '')
     with open(file, 'w') as f:
         f.write(content_new)
-
-# copy adjusted README.md to src
-copyfile(op.join(basedir, 'README.md'), op.join(markdown_dir, 'README.md'))
-copyfile(op.join(basedir, 'cover.jpg'), op.join(markdown_dir, 'cover.jpg'))
