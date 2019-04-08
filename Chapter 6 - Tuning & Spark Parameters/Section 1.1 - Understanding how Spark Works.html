@@ -1,0 +1,822 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Section 1.1 - Understanding how Spark Works · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    README
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    Chapter 1 - Basics
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../Chapter 1 - Basics/Section 1 - Useful Material.html">
+            
+                <a href="../Chapter 1 - Basics/Section 1 - Useful Material.html">
+            
+                    
+                    Section 1 - Useful Material
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../Chapter 1 - Basics/Section 2 - Creating your First Data Object.html">
+            
+                <a href="../Chapter 1 - Basics/Section 2 - Creating your First Data Object.html">
+            
+                    
+                    Section 2 - Creating your First Data Object
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../Chapter 1 - Basics/Section 3 - Reading your First Dataset.html">
+            
+                <a href="../Chapter 1 - Basics/Section 3 - Reading your First Dataset.html">
+            
+                    
+                    Section 3 - Reading your First Dataset
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../Chapter 1 - Basics/Section 4 - More Comfortable with SQL.html">
+            
+                <a href="../Chapter 1 - Basics/Section 4 - More Comfortable with SQL.html">
+            
+                    
+                    Section 4 - More Comfortable with SQL
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    Chapter 2 - Exploring the Spark APIs
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../Chapter 2 - Exploring the Spark APIs/Section 1.1 - Struct Types.html">
+            
+                <a href="../Chapter 2 - Exploring the Spark APIs/Section 1.1 - Struct Types.html">
+            
+                    
+                    Section 1.1 - Struct Types
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../Chapter 2 - Exploring the Spark APIs/Section 1.2 - Arrays and Lists.html">
+            
+                <a href="../Chapter 2 - Exploring the Spark APIs/Section 1.2 - Arrays and Lists.html">
+            
+                    
+                    Section 1.2 - Arrays and Lists
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../Chapter 2 - Exploring the Spark APIs/Section 1.3 - Maps and Dictionaries.html">
+            
+                <a href="../Chapter 2 - Exploring the Spark APIs/Section 1.3 - Maps and Dictionaries.html">
+            
+                    
+                    Section 1.3 - Maps and Dictionaries
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../Chapter 2 - Exploring the Spark APIs/Section 1.4 - Decimals and Why did my Decimals Overflow.html">
+            
+                <a href="../Chapter 2 - Exploring the Spark APIs/Section 1.4 - Decimals and Why did my Decimals Overflow.html">
+            
+                    
+                    Section 1.4 - Decimals and Why did my Decimals Overflow
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../Chapter 2 - Exploring the Spark APIs/Section 2 - Performing your First Transformations.html">
+            
+                <a href="../Chapter 2 - Exploring the Spark APIs/Section 2 - Performing your First Transformations.html">
+            
+                    
+                    Section 2 - Performing your First Transformations
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../Chapter 2 - Exploring the Spark APIs/Section 2.1 - Looking at Your Data.html">
+            
+                <a href="../Chapter 2 - Exploring the Spark APIs/Section 2.1 - Looking at Your Data.html">
+            
+                    
+                    Section 2.1 - Looking at Your Data
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../Chapter 2 - Exploring the Spark APIs/Section 2.2 - Selecting a Subset of Columns.html">
+            
+                <a href="../Chapter 2 - Exploring the Spark APIs/Section 2.2 - Selecting a Subset of Columns.html">
+            
+                    
+                    Section 2.2 - Selecting a Subset of Columns
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="../Chapter 2 - Exploring the Spark APIs/Section 2.3 - Creating New Columns and Transforming Data.html">
+            
+                <a href="../Chapter 2 - Exploring the Spark APIs/Section 2.3 - Creating New Columns and Transforming Data.html">
+            
+                    
+                    Section 2.3 - Creating New Columns and Transforming Data
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9" data-path="../Chapter 2 - Exploring the Spark APIs/Section 2.4 - Constant Values and Column Expressions.html">
+            
+                <a href="../Chapter 2 - Exploring the Spark APIs/Section 2.4 - Constant Values and Column Expressions.html">
+            
+                    
+                    Section 2.4 - Constant Values and Column Expressions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10" data-path="../Chapter 2 - Exploring the Spark APIs/Section 2.5 - Casting Columns to Different Type.html">
+            
+                <a href="../Chapter 2 - Exploring the Spark APIs/Section 2.5 - Casting Columns to Different Type.html">
+            
+                    
+                    Section 2.5 - Casting Columns to Different Type
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.11" data-path="../Chapter 2 - Exploring the Spark APIs/Section 2.6 - Filtering Data.html">
+            
+                <a href="../Chapter 2 - Exploring the Spark APIs/Section 2.6 - Filtering Data.html">
+            
+                    
+                    Section 2.6 - Filtering Data
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.12" data-path="../Chapter 2 - Exploring the Spark APIs/Section 2.7 - Equality Statements in Spark and Comparison with Nulls.html">
+            
+                <a href="../Chapter 2 - Exploring the Spark APIs/Section 2.7 - Equality Statements in Spark and Comparison with Nulls.html">
+            
+                    
+                    Section 2.7 - Equality Statements in Spark and Comparison with Nulls
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.13" data-path="../Chapter 2 - Exploring the Spark APIs/Section 2.8 - Case Statements.html">
+            
+                <a href="../Chapter 2 - Exploring the Spark APIs/Section 2.8 - Case Statements.html">
+            
+                    
+                    Section 2.8 - Case Statements
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.14" data-path="../Chapter 2 - Exploring the Spark APIs/Section 2.9 - Filling in Null Values.html">
+            
+                <a href="../Chapter 2 - Exploring the Spark APIs/Section 2.9 - Filling in Null Values.html">
+            
+                    
+                    Section 2.9 - Filling in Null Values
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.15" data-path="../Chapter 2 - Exploring the Spark APIs/Section 2.10 - Spark Functions aren't Enough, I Need my Own!.html">
+            
+                <a href="../Chapter 2 - Exploring the Spark APIs/Section 2.10 - Spark Functions aren't Enough, I Need my Own!.html">
+            
+                    
+                    Section 2.10 - Spark Functions aren't Enough, I Need my Own!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.16" data-path="../Chapter 2 - Exploring the Spark APIs/Section 2.11  - Unionizing Multiple Dataframes.html">
+            
+                <a href="../Chapter 2 - Exploring the Spark APIs/Section 2.11  - Unionizing Multiple Dataframes.html">
+            
+                    
+                    Section 2.11  - Unionizing Multiple Dataframes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.17" data-path="../Chapter 2 - Exploring the Spark APIs/Section 2.12 - Performing Joins <clean one>.html">
+            
+                <a href="../Chapter 2 - Exploring the Spark APIs/Section 2.12 - Performing Joins <clean one>.html">
+            
+                    
+                    Section 2.12 - Performing Joins 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.18" data-path="../Chapter 2 - Exploring the Spark APIs/Section 3.1 - One to Many Rows.html">
+            
+                <a href="../Chapter 2 - Exploring the Spark APIs/Section 3.1 - One to Many Rows.html">
+            
+                    
+                    Section 3.1 - One to Many Rows
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.19" data-path="../Chapter 2 - Exploring the Spark APIs/Section 3.2 - Range Join Conditions <WIP>.html">
+            
+                <a href="../Chapter 2 - Exploring the Spark APIs/Section 3.2 - Range Join Conditions <WIP>.html">
+            
+                    
+                    Section 3.2 - Range Join Conditions 
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    Chapter 3 - Aggregates
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../Chapter 3 - Aggregates/Section 1 - Clean Aggregations.html">
+            
+                <a href="../Chapter 3 - Aggregates/Section 1 - Clean Aggregations.html">
+            
+                    
+                    Section 1 - Clean Aggregations
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../Chapter 3 - Aggregates/Section 2 - Non Deterministic Ordering for GroupBys.html">
+            
+                <a href="../Chapter 3 - Aggregates/Section 2 - Non Deterministic Ordering for GroupBys.html">
+            
+                    
+                    Section 2 - Non Deterministic Ordering for GroupBys
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    Chapter 4 - Window Objects
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../Chapter 4 - Window Objects/Section 1 - Default Behaviour of a Window Object.html">
+            
+                <a href="../Chapter 4 - Window Objects/Section 1 - Default Behaviour of a Window Object.html">
+            
+                    
+                    Section 1 - Default Behaviour of a Window Object
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../Chapter 4 - Window Objects/Section 2 - Ordering High Frequency Data with a Window Object.html">
+            
+                <a href="../Chapter 4 - Window Objects/Section 2 - Ordering High Frequency Data with a Window Object.html">
+            
+                    
+                    Section 2 - Ordering High Frequency Data with a Window Object
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    Chapter 6 - Tuning & Spark Parameters
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.6.1" data-path="Section 1.1 - Understanding how Spark Works.html">
+            
+                <a href="Section 1.1 - Understanding how Spark Works.html">
+            
+                    
+                    Section 1.1 - Understanding how Spark Works
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    Chapter 7 - High Performance Code
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../Chapter 7 - High Performance Code/Section 1.1 - Filter Pushdown.html">
+            
+                <a href="../Chapter 7 - High Performance Code/Section 1.1 - Filter Pushdown.html">
+            
+                    
+                    Section 1.1 - Filter Pushdown
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../Chapter 7 - High Performance Code/Section 1.2 - Joins on Skewed Data <Null Keys>.html">
+            
+                <a href="../Chapter 7 - High Performance Code/Section 1.2 - Joins on Skewed Data <Null Keys>.html">
+            
+                    
+                    Section 1.2 - Joins on Skewed Data 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../Chapter 7 - High Performance Code/Section 1.3 - Joins on Skewed Data <High Frequency Keys I>.html">
+            
+                <a href="../Chapter 7 - High Performance Code/Section 1.3 - Joins on Skewed Data <High Frequency Keys I>.html">
+            
+                    
+                    Section 1.3 - Joins on Skewed Data 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../Chapter 7 - High Performance Code/Section 1.4 - Joins on Skewed Data <High Frequency Keys II> <WIP>.html">
+            
+                <a href="../Chapter 7 - High Performance Code/Section 1.4 - Joins on Skewed Data <High Frequency Keys II> <WIP>.html">
+            
+                    
+                    Section 1.4 - Joins on Skewed Data  
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Section 1.1 - Understanding how Spark Works</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="section-11---understanding-distributed-systems-and-how-spark-works">Section 1.1 - Understanding Distributed Systems and how Spark Works</h1>
+<p>Working with Spark requires a different kind of thinking. Your code isn&apos;t executing in a sequential manor anymore, it&apos;s being executing in parallel. To write performant parallel code, you will need to think about how you can perform as different/same tasks at the same while minimizing the blocking of other tasks. Hopefully by understanding how spark and distributed systems work you can get into the right mindset and write clean parallel spark code.</p>
+<h2 id="understanding-distributed-systemscomputing">Understanding Distributed Systems/Computing</h2>
+<p><strong>Sequential Applications</strong></p>
+<p>In a generic application the code path is run in a sequential order. As in the code will execute from the top of the file to the bottom of the file, line by line.</p>
+<p><strong>Multiprocess/threaded Applications</strong></p>
+<p>In a <code>multi-processed/threaded</code> application the code path will diverge. The application will assign a portions of the code to <code>threads/processes</code> which will handle these tasks in an <code>asynchronous</code> manner. Once these tasks are completed the <code>threads/processes</code> will signal the main application and the code path will conform again.</p>
+<p>These <code>threads/processes</code> are allocated a certain amount of memory and processing power on a single machine where the main application is running.</p>
+<p>Think about how your computer can handle multiple applications at once. This is multiple processes running on a single machine.</p>
+<p><strong>Distributed Computing (Clusters and Nodes)</strong></p>
+<p>Spark is a distributed computing library that can be used in either Python, Scala, Java or R. When we say &quot;distributed computing&quot; we mean that our application runs on multiple machines/computers called <code>Nodes</code> which are all part of a single <code>Cluster</code>.</p>
+<p>This is very similar to how a <code>multi-processed</code> application would work, just with more processing juice. Each <code>Node</code> is essentially a computer running multiple process running at once.</p>
+<p><img src="https://github.com/ericxiao251/spark-syntax/blob/master/src/images/master-slave.png" alt=""></p>
+<p><strong>Master/Slave Architecture</strong></p>
+<p>From the image in the last section we can see there are 2 types of <code>Nodes</code>, a single <code>Driver/Master Node</code> and multiple <code>Worker Nodes</code>.</p>
+<p>Each machine is assigned a portion of the overall work in the application. Through communication and message passing the machines attempt to compute each portion of the work in parallel. When the work is dependent on another portion of work, then it will have to wait until that work is computed and passed to the worker. When every portion of the work is done, it is all sent back to the <code>Master Node</code>. The coordination of the communication and message passing is done  by the <code>Master Node</code> talking to the <code>Worker Nodes</code>.</p>
+<p>You can think of it as a team lead with multiple engineers, UX, designers, etc. The lead assigns tasks to everyone. The designers and UX collaborate to create an effective interface that is user friendly, once they are done they report back to the lead. The lead will pass this information to engineers and they can start coding the interface, etc.</p>
+<h2 id="lazy-execution">Lazy Execution</h2>
+<p>When you&apos;re writing a spark application, no work is actually being done until you perform a <code>collect</code> action. As seen in some examples in the previous chapters, a <code>collect</code> action is when you want to see the results of your spark transformations in the form of a <code>toPandas()</code>, <code>show()</code>, etc. This triggers the <code>Driver</code> to start the distribution of work, etc.</p>
+<p>For now this is all you need to know, we will look into why Spark works this way and why it&apos;s a desired design decision.</p>
+<h2 id="mapreduce">MapReduce</h2>
+<p>When the <code>Driver Node</code> actually starts to do some work, it communications and distributes work using a technique called &quot;MapReduce&quot;. There are two essential behaviors of a MapReduce application, <code>map</code> and <code>reduce</code>.</p>
+<p><img src="https://github.com/ericxiao251/spark-syntax/blob/master/src/images/mapreduce.png" alt=""></p>
+<p><strong>Map</strong></p>
+<p>When the <code>Driver Node</code> is distributing the work it <code>maps</code> the 1) data and 2) transformations to each <code>Worker Node</code>. This allows the <code>Worker Nodes</code> to perform the work (transformations) on the associated data in parallel.</p>
+<p>Ex.</p>
+<pre><code class="lang-python"><span class="hljs-comment"># initialize your variables</span>
+x = <span class="hljs-number">5</span>
+y = <span class="hljs-number">10</span>
+
+<span class="hljs-comment"># do some transformations to your variables</span>
+x = x * <span class="hljs-number">2</span>
+y = y + <span class="hljs-number">2</span>
+</code></pre>
+<p>Here we can see that the arithmetic operations performed on <code>x</code> and <code>y</code> can be done independently, so we can do those 2 operations in parallel on two different <code>Worker Nodes</code>. So Spark will <code>map</code> <code>x</code> and the operation <code>x * 2</code> to a <code>Worker Node</code> and <code>y</code> and <code>y + 2</code> to another <code>Worker Node</code>.</p>
+<p>Think about this but on a larger scale, we have 1 billion rows of numbers that we want to increment by 1. We will map portions of the data to each <code>Worker Node</code> and the operation <code>+ 1</code> to each <code>Worker Node</code>.</p>
+<p><strong>Reduce</strong></p>
+<p>When work can&apos;t be done in parallel and is dependent on some previous work, the post transformed <code>data</code> is sent back to the <code>Driver Node</code> from all the <code>Worker Nodes</code>. There the new data may be redistributed to the <code>Worker Nodes</code> to resume execution or execution is done on the <code>Driver Node</code> depending on the type of work.</p>
+<p>Ex.</p>
+<pre><code class="lang-python"><span class="hljs-comment"># initialize your variables</span>
+x = <span class="hljs-number">5</span>
+y = <span class="hljs-number">10</span>
+
+<span class="hljs-comment"># do some transformations to your variables</span>
+x = x * <span class="hljs-number">2</span>
+y = y + <span class="hljs-number">2</span>
+
+<span class="hljs-comment"># do some more transformations</span>
+z = x + y
+</code></pre>
+<p>Similar to the example above, but here we see that the last transformation <code>z = x + y</code> depends on the previous transformations. So we will need to collect all the work done on the <code>Worker Nodes</code> to the <code>Driver Node</code> and perform the final transformation.</p>
+<h2 id="key-terms">Key Terms</h2>
+<p><strong>Driver Node</strong></p>
+<p>Learnt above.</p>
+<p><strong>Worker</strong></p>
+<p>Learnt above.</p>
+<p><strong>Executor</strong></p>
+<p>A process launched from an application on a <code>Worker Node</code>, that runs tasks and keeps data in memory or disk storage across them. Each application has its own executors.</p>
+<p><strong>Jobs</strong></p>
+<p>Job A parallel computation consisting of multiple tasks that gets spawned in response to a Spark action.</p>
+<p><strong>Stages</strong></p>
+<p>Smaller set of tasks inside any job.</p>
+<p><strong>Tasks</strong></p>
+<p>Unit of work that will be sent to one executor.</p>
+<p><a href="https://www.slideshare.net/DatioBD/apache-spark-ii-sparksql" target="_blank">Source</a></p>
+<p><img src="https://github.com/ericxiao251/spark-syntax/blob/master/src/images/key-terms.png" alt=""></p>
+<p><a href="https://www.oreilly.com/library/view/learning-spark/9781449359034/" target="_blank">Source</a></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Section 1.1 - Understanding how Spark Works","level":"1.6.1","depth":2,"next":{"title":"Chapter 7 - High Performance Code","level":"1.7","depth":1,"ref":"","articles":[{"title":"Section 1.1 - Filter Pushdown","level":"1.7.1","depth":2,"path":"Chapter 7 - High Performance Code/Section 1.1 - Filter Pushdown.md","ref":"Chapter 7 - High Performance Code/Section 1.1 - Filter Pushdown.md","articles":[]},{"title":"Section 1.2 - Joins on Skewed Data ","level":"1.7.2","depth":2,"path":"Chapter 7 - High Performance Code/Section 1.2 - Joins on Skewed Data <Null Keys>.md","ref":"Chapter 7 - High Performance Code/Section 1.2 - Joins on Skewed Data <Null Keys>.md","articles":[]},{"title":"Section 1.3 - Joins on Skewed Data ","level":"1.7.3","depth":2,"path":"Chapter 7 - High Performance Code/Section 1.3 - Joins on Skewed Data <High Frequency Keys I>.md","ref":"Chapter 7 - High Performance Code/Section 1.3 - Joins on Skewed Data <High Frequency Keys I>.md","articles":[]},{"title":"Section 1.4 - Joins on Skewed Data  ","level":"1.7.4","depth":2,"path":"Chapter 7 - High Performance Code/Section 1.4 - Joins on Skewed Data <High Frequency Keys II> <WIP>.md","ref":"Chapter 7 - High Performance Code/Section 1.4 - Joins on Skewed Data <High Frequency Keys II> <WIP>.md","articles":[]}]},"previous":{"title":"Chapter 6 - Tuning & Spark Parameters","level":"1.6","depth":1,"ref":"","articles":[{"title":"Section 1.1 - Understanding how Spark Works","level":"1.6.1","depth":2,"path":"Chapter 6 - Tuning & Spark Parameters/Section 1.1 - Understanding how Spark Works.md","ref":"Chapter 6 - Tuning & Spark Parameters/Section 1.1 - Understanding how Spark Works.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["-sharing","katex@1.1.3","edit-link@2.0.x","github@2.0.x"],"root":"./src","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit","base":"https://github.com/ericxiao251/spark-syntax/edit/master"},"github":{"url":"https://github.com/ericxiao251/spark-syntax"},"katex":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":14,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"toc":true},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"3.2.x"},"file":{"path":"Chapter 6 - Tuning & Spark Parameters/Section 1.1 - Understanding how Spark Works.md","mtime":"2019-03-21T01:55:34.984Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-04-08T16:33:07.656Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

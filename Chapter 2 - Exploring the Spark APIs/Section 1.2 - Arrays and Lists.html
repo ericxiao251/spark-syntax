@@ -1,0 +1,859 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Section 1.2 - Arrays and Lists · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Section 1.3 - Maps and Dictionaries.html" />
+    
+    
+    <link rel="prev" href="Section 1.1 - Struct Types.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    README
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    Chapter 1 - Basics
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../Chapter 1 - Basics/Section 1 - Useful Material.html">
+            
+                <a href="../Chapter 1 - Basics/Section 1 - Useful Material.html">
+            
+                    
+                    Section 1 - Useful Material
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../Chapter 1 - Basics/Section 2 - Creating your First Data Object.html">
+            
+                <a href="../Chapter 1 - Basics/Section 2 - Creating your First Data Object.html">
+            
+                    
+                    Section 2 - Creating your First Data Object
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../Chapter 1 - Basics/Section 3 - Reading your First Dataset.html">
+            
+                <a href="../Chapter 1 - Basics/Section 3 - Reading your First Dataset.html">
+            
+                    
+                    Section 3 - Reading your First Dataset
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../Chapter 1 - Basics/Section 4 - More Comfortable with SQL.html">
+            
+                <a href="../Chapter 1 - Basics/Section 4 - More Comfortable with SQL.html">
+            
+                    
+                    Section 4 - More Comfortable with SQL
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    Chapter 2 - Exploring the Spark APIs
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="Section 1.1 - Struct Types.html">
+            
+                <a href="Section 1.1 - Struct Types.html">
+            
+                    
+                    Section 1.1 - Struct Types
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.2" data-path="Section 1.2 - Arrays and Lists.html">
+            
+                <a href="Section 1.2 - Arrays and Lists.html">
+            
+                    
+                    Section 1.2 - Arrays and Lists
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="Section 1.3 - Maps and Dictionaries.html">
+            
+                <a href="Section 1.3 - Maps and Dictionaries.html">
+            
+                    
+                    Section 1.3 - Maps and Dictionaries
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="Section 1.4 - Decimals and Why did my Decimals Overflow.html">
+            
+                <a href="Section 1.4 - Decimals and Why did my Decimals Overflow.html">
+            
+                    
+                    Section 1.4 - Decimals and Why did my Decimals Overflow
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="Section 2 - Performing your First Transformations.html">
+            
+                <a href="Section 2 - Performing your First Transformations.html">
+            
+                    
+                    Section 2 - Performing your First Transformations
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="Section 2.1 - Looking at Your Data.html">
+            
+                <a href="Section 2.1 - Looking at Your Data.html">
+            
+                    
+                    Section 2.1 - Looking at Your Data
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="Section 2.2 - Selecting a Subset of Columns.html">
+            
+                <a href="Section 2.2 - Selecting a Subset of Columns.html">
+            
+                    
+                    Section 2.2 - Selecting a Subset of Columns
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="Section 2.3 - Creating New Columns and Transforming Data.html">
+            
+                <a href="Section 2.3 - Creating New Columns and Transforming Data.html">
+            
+                    
+                    Section 2.3 - Creating New Columns and Transforming Data
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9" data-path="Section 2.4 - Constant Values and Column Expressions.html">
+            
+                <a href="Section 2.4 - Constant Values and Column Expressions.html">
+            
+                    
+                    Section 2.4 - Constant Values and Column Expressions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10" data-path="Section 2.5 - Casting Columns to Different Type.html">
+            
+                <a href="Section 2.5 - Casting Columns to Different Type.html">
+            
+                    
+                    Section 2.5 - Casting Columns to Different Type
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.11" data-path="Section 2.6 - Filtering Data.html">
+            
+                <a href="Section 2.6 - Filtering Data.html">
+            
+                    
+                    Section 2.6 - Filtering Data
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.12" data-path="Section 2.7 - Equality Statements in Spark and Comparison with Nulls.html">
+            
+                <a href="Section 2.7 - Equality Statements in Spark and Comparison with Nulls.html">
+            
+                    
+                    Section 2.7 - Equality Statements in Spark and Comparison with Nulls
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.13" data-path="Section 2.8 - Case Statements.html">
+            
+                <a href="Section 2.8 - Case Statements.html">
+            
+                    
+                    Section 2.8 - Case Statements
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.14" data-path="Section 2.9 - Filling in Null Values.html">
+            
+                <a href="Section 2.9 - Filling in Null Values.html">
+            
+                    
+                    Section 2.9 - Filling in Null Values
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.15" data-path="Section 2.10 - Spark Functions aren't Enough, I Need my Own!.html">
+            
+                <a href="Section 2.10 - Spark Functions aren't Enough, I Need my Own!.html">
+            
+                    
+                    Section 2.10 - Spark Functions aren't Enough, I Need my Own!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.16" data-path="Section 2.11  - Unionizing Multiple Dataframes.html">
+            
+                <a href="Section 2.11  - Unionizing Multiple Dataframes.html">
+            
+                    
+                    Section 2.11  - Unionizing Multiple Dataframes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.17" data-path="Section 2.12 - Performing Joins <clean one>.html">
+            
+                <a href="Section 2.12 - Performing Joins <clean one>.html">
+            
+                    
+                    Section 2.12 - Performing Joins 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.18" data-path="Section 3.1 - One to Many Rows.html">
+            
+                <a href="Section 3.1 - One to Many Rows.html">
+            
+                    
+                    Section 3.1 - One to Many Rows
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.19" data-path="Section 3.2 - Range Join Conditions <WIP>.html">
+            
+                <a href="Section 3.2 - Range Join Conditions <WIP>.html">
+            
+                    
+                    Section 3.2 - Range Join Conditions 
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    Chapter 3 - Aggregates
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../Chapter 3 - Aggregates/Section 1 - Clean Aggregations.html">
+            
+                <a href="../Chapter 3 - Aggregates/Section 1 - Clean Aggregations.html">
+            
+                    
+                    Section 1 - Clean Aggregations
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../Chapter 3 - Aggregates/Section 2 - Non Deterministic Ordering for GroupBys.html">
+            
+                <a href="../Chapter 3 - Aggregates/Section 2 - Non Deterministic Ordering for GroupBys.html">
+            
+                    
+                    Section 2 - Non Deterministic Ordering for GroupBys
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    Chapter 4 - Window Objects
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../Chapter 4 - Window Objects/Section 1 - Default Behaviour of a Window Object.html">
+            
+                <a href="../Chapter 4 - Window Objects/Section 1 - Default Behaviour of a Window Object.html">
+            
+                    
+                    Section 1 - Default Behaviour of a Window Object
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../Chapter 4 - Window Objects/Section 2 - Ordering High Frequency Data with a Window Object.html">
+            
+                <a href="../Chapter 4 - Window Objects/Section 2 - Ordering High Frequency Data with a Window Object.html">
+            
+                    
+                    Section 2 - Ordering High Frequency Data with a Window Object
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    Chapter 6 - Tuning & Spark Parameters
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../Chapter 6 - Tuning & Spark Parameters/Section 1.1 - Understanding how Spark Works.html">
+            
+                <a href="../Chapter 6 - Tuning & Spark Parameters/Section 1.1 - Understanding how Spark Works.html">
+            
+                    
+                    Section 1.1 - Understanding how Spark Works
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    Chapter 7 - High Performance Code
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../Chapter 7 - High Performance Code/Section 1.1 - Filter Pushdown.html">
+            
+                <a href="../Chapter 7 - High Performance Code/Section 1.1 - Filter Pushdown.html">
+            
+                    
+                    Section 1.1 - Filter Pushdown
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../Chapter 7 - High Performance Code/Section 1.2 - Joins on Skewed Data <Null Keys>.html">
+            
+                <a href="../Chapter 7 - High Performance Code/Section 1.2 - Joins on Skewed Data <Null Keys>.html">
+            
+                    
+                    Section 1.2 - Joins on Skewed Data 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../Chapter 7 - High Performance Code/Section 1.3 - Joins on Skewed Data <High Frequency Keys I>.html">
+            
+                <a href="../Chapter 7 - High Performance Code/Section 1.3 - Joins on Skewed Data <High Frequency Keys I>.html">
+            
+                    
+                    Section 1.3 - Joins on Skewed Data 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../Chapter 7 - High Performance Code/Section 1.4 - Joins on Skewed Data <High Frequency Keys II> <WIP>.html">
+            
+                <a href="../Chapter 7 - High Performance Code/Section 1.4 - Joins on Skewed Data <High Frequency Keys II> <WIP>.html">
+            
+                    
+                    Section 1.4 - Joins on Skewed Data  
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Section 1.2 - Arrays and Lists</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h3 id="library-imports">Library Imports</h3>
+<pre><code class="lang-python"><span class="hljs-keyword">from</span> pyspark.sql <span class="hljs-keyword">import</span> SparkSession
+<span class="hljs-keyword">from</span> pyspark.sql <span class="hljs-keyword">import</span> types <span class="hljs-keyword">as</span> T
+
+<span class="hljs-keyword">from</span> pyspark.sql <span class="hljs-keyword">import</span> functions <span class="hljs-keyword">as</span> F
+
+<span class="hljs-keyword">from</span> datetime <span class="hljs-keyword">import</span> datetime
+<span class="hljs-keyword">from</span> decimal <span class="hljs-keyword">import</span> Decimal
+</code></pre>
+<h3 id="template">Template</h3>
+<pre><code class="lang-python">spark = (
+    SparkSession.builder
+    .master(<span class="hljs-string">&quot;local&quot;</span>)
+    .appName(<span class="hljs-string">&quot;Section 2.1.2 - Arrays and Lists&quot;</span>)
+    .config(<span class="hljs-string">&quot;spark.some.config.option&quot;</span>, <span class="hljs-string">&quot;some-value&quot;</span>)
+    .getOrCreate()
+)
+
+sc = spark.sparkContext
+
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">get_csv_schema</span><span class="hljs-params">(*args)</span>:</span>
+    <span class="hljs-keyword">return</span> T.StructType([
+        T.StructField(*arg)
+        <span class="hljs-keyword">for</span> arg <span class="hljs-keyword">in</span> args
+    ])
+
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">read_csv</span><span class="hljs-params">(fname, schema)</span>:</span>
+    <span class="hljs-keyword">return</span> spark.read.csv(
+        path=fname,
+        header=<span class="hljs-keyword">True</span>,
+        schema=get_csv_schema(*schema)
+    )
+
+<span class="hljs-keyword">import</span> os
+
+data_path = <span class="hljs-string">&quot;/data/pets.csv&quot;</span>
+base_path = os.path.dirname(os.getcwd())
+path = base_path + data_path
+</code></pre>
+<pre><code class="lang-python">pets = read_csv(
+    fname=path,
+    schema=[
+        (<span class="hljs-string">&quot;id&quot;</span>, T.LongType(), <span class="hljs-keyword">False</span>),
+        (<span class="hljs-string">&quot;breed_id&quot;</span>, T.LongType(), <span class="hljs-keyword">True</span>),
+        (<span class="hljs-string">&quot;nickname&quot;</span>, T.StringType(), <span class="hljs-keyword">True</span>),
+        (<span class="hljs-string">&quot;birthday&quot;</span>, T.TimestampType(), <span class="hljs-keyword">True</span>),
+        (<span class="hljs-string">&quot;age&quot;</span>, T.LongType(), <span class="hljs-keyword">True</span>),
+        (<span class="hljs-string">&quot;color&quot;</span>, T.StringType(), <span class="hljs-keyword">True</span>),
+        (<span class="hljs-string">&quot;weight&quot;</span>, T.DecimalType(), <span class="hljs-keyword">True</span>),
+    ]
+)
+pets.show()
+</code></pre>
+<pre><code>+---+--------+--------+-------------------+---+-----+------+
+| id|breed_id|nickname|           birthday|age|color|weight|
++---+--------+--------+-------------------+---+-----+------+
+|  1|       1|    King|2014-11-22 12:30:31|  5|brown|    10|
+|  2|       3|   Argus|2016-11-22 10:05:10| 10| null|     6|
+|  3|       1|  Chewie|2016-11-22 10:05:10| 15| null|    12|
+|  3|       2|   Maple|2018-11-22 10:05:10| 17|white|     3|
+|  4|       2|    null|2019-01-01 10:05:10| 13| null|    10|
++---+--------+--------+-------------------+---+-----+------+
+</code></pre><h3 id="arrays-and-lists">Arrays and Lists</h3>
+<h3 id="case-1-reading-in-data-that-contains-arrays">Case 1: Reading in Data that contains <code>Arrays</code></h3>
+<p>TODO</p>
+<h3 id="case-2-creating-arrays">Case 2: Creating Arrays</h3>
+<pre><code class="lang-python">(
+    pets
+    .withColumn(<span class="hljs-string">&apos;array column&apos;</span>, F.array([
+        F.lit(<span class="hljs-number">1</span>),
+        F.lit(<span class="hljs-string">&quot;Bob&quot;</span>),
+        F.lit(datetime(<span class="hljs-number">2019</span>,<span class="hljs-number">2</span>,<span class="hljs-number">1</span>)),
+    ]))
+    .show()
+)
+</code></pre>
+<pre><code>+---+--------+--------+-------------------+---+-----+------+--------------------+
+| id|breed_id|nickname|           birthday|age|color|weight|        array column|
++---+--------+--------+-------------------+---+-----+------+--------------------+
+|  1|       1|    King|2014-11-22 12:30:31|  5|brown|    10|[1, Bob, 2019-02-...|
+|  2|       3|   Argus|2016-11-22 10:05:10| 10| null|     6|[1, Bob, 2019-02-...|
+|  3|       1|  Chewie|2016-11-22 10:05:10| 15| null|    12|[1, Bob, 2019-02-...|
+|  3|       2|   Maple|2018-11-22 10:05:10| 17|white|     3|[1, Bob, 2019-02-...|
+|  4|       2|    null|2019-01-01 10:05:10| 13| null|    10|[1, Bob, 2019-02-...|
++---+--------+--------+-------------------+---+-----+------+--------------------+
+</code></pre><p><strong>What Happened?</strong></p>
+<p>We will explain in the later chapter what the <code>F.lit()</code> function does, but for now understand that in order to create an array type you need to call the <code>F.array()</code> function and for each array element call <code>F.lit()</code> on.</p>
+<h3 id="summary">Summary</h3>
+<ul>
+<li>It&apos;s pretty simple to create an array in Spark, you will need to call 2 functions: <code>F.array()</code> and <code>F.lit()</code>.</li>
+<li>Each element of the array needs to be of type <code>F.lit()</code></li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Section 1.1 - Struct Types.html" class="navigation navigation-prev " aria-label="Previous page: Section 1.1 - Struct Types">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="Section 1.3 - Maps and Dictionaries.html" class="navigation navigation-next " aria-label="Next page: Section 1.3 - Maps and Dictionaries">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Section 1.2 - Arrays and Lists","level":"1.3.2","depth":2,"next":{"title":"Section 1.3 - Maps and Dictionaries","level":"1.3.3","depth":2,"path":"Chapter 2 - Exploring the Spark APIs/Section 1.3 - Maps and Dictionaries.md","ref":"Chapter 2 - Exploring the Spark APIs/Section 1.3 - Maps and Dictionaries.md","articles":[]},"previous":{"title":"Section 1.1 - Struct Types","level":"1.3.1","depth":2,"path":"Chapter 2 - Exploring the Spark APIs/Section 1.1 - Struct Types.md","ref":"Chapter 2 - Exploring the Spark APIs/Section 1.1 - Struct Types.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","katex@1.1.3","edit-link@2.0.x","github@2.0.x"],"root":"./src","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit","base":"https://github.com/ericxiao251/spark-syntax/edit/master"},"github":{"url":"https://github.com/ericxiao251/spark-syntax"},"katex":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":14,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"toc":true},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"3.2.x"},"file":{"path":"Chapter 2 - Exploring the Spark APIs/Section 1.2 - Arrays and Lists.md","mtime":"2019-03-21T01:55:34.979Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-04-08T16:33:07.656Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

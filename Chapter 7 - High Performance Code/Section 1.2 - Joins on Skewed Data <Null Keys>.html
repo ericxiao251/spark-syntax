@@ -1,0 +1,1179 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Section 1.2 - Joins on Skewed Data  · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Section 1.3 - Joins on Skewed Data <High Frequency Keys I>.html" />
+    
+    
+    <link rel="prev" href="Section 1.1 - Filter Pushdown.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    README
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    Chapter 1 - Basics
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../Chapter 1 - Basics/Section 1 - Useful Material.html">
+            
+                <a href="../Chapter 1 - Basics/Section 1 - Useful Material.html">
+            
+                    
+                    Section 1 - Useful Material
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../Chapter 1 - Basics/Section 2 - Creating your First Data Object.html">
+            
+                <a href="../Chapter 1 - Basics/Section 2 - Creating your First Data Object.html">
+            
+                    
+                    Section 2 - Creating your First Data Object
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../Chapter 1 - Basics/Section 3 - Reading your First Dataset.html">
+            
+                <a href="../Chapter 1 - Basics/Section 3 - Reading your First Dataset.html">
+            
+                    
+                    Section 3 - Reading your First Dataset
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../Chapter 1 - Basics/Section 4 - More Comfortable with SQL.html">
+            
+                <a href="../Chapter 1 - Basics/Section 4 - More Comfortable with SQL.html">
+            
+                    
+                    Section 4 - More Comfortable with SQL
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    Chapter 2 - Exploring the Spark APIs
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../Chapter 2 - Exploring the Spark APIs/Section 1.1 - Struct Types.html">
+            
+                <a href="../Chapter 2 - Exploring the Spark APIs/Section 1.1 - Struct Types.html">
+            
+                    
+                    Section 1.1 - Struct Types
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../Chapter 2 - Exploring the Spark APIs/Section 1.2 - Arrays and Lists.html">
+            
+                <a href="../Chapter 2 - Exploring the Spark APIs/Section 1.2 - Arrays and Lists.html">
+            
+                    
+                    Section 1.2 - Arrays and Lists
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../Chapter 2 - Exploring the Spark APIs/Section 1.3 - Maps and Dictionaries.html">
+            
+                <a href="../Chapter 2 - Exploring the Spark APIs/Section 1.3 - Maps and Dictionaries.html">
+            
+                    
+                    Section 1.3 - Maps and Dictionaries
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../Chapter 2 - Exploring the Spark APIs/Section 1.4 - Decimals and Why did my Decimals Overflow.html">
+            
+                <a href="../Chapter 2 - Exploring the Spark APIs/Section 1.4 - Decimals and Why did my Decimals Overflow.html">
+            
+                    
+                    Section 1.4 - Decimals and Why did my Decimals Overflow
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../Chapter 2 - Exploring the Spark APIs/Section 2 - Performing your First Transformations.html">
+            
+                <a href="../Chapter 2 - Exploring the Spark APIs/Section 2 - Performing your First Transformations.html">
+            
+                    
+                    Section 2 - Performing your First Transformations
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../Chapter 2 - Exploring the Spark APIs/Section 2.1 - Looking at Your Data.html">
+            
+                <a href="../Chapter 2 - Exploring the Spark APIs/Section 2.1 - Looking at Your Data.html">
+            
+                    
+                    Section 2.1 - Looking at Your Data
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../Chapter 2 - Exploring the Spark APIs/Section 2.2 - Selecting a Subset of Columns.html">
+            
+                <a href="../Chapter 2 - Exploring the Spark APIs/Section 2.2 - Selecting a Subset of Columns.html">
+            
+                    
+                    Section 2.2 - Selecting a Subset of Columns
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="../Chapter 2 - Exploring the Spark APIs/Section 2.3 - Creating New Columns and Transforming Data.html">
+            
+                <a href="../Chapter 2 - Exploring the Spark APIs/Section 2.3 - Creating New Columns and Transforming Data.html">
+            
+                    
+                    Section 2.3 - Creating New Columns and Transforming Data
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9" data-path="../Chapter 2 - Exploring the Spark APIs/Section 2.4 - Constant Values and Column Expressions.html">
+            
+                <a href="../Chapter 2 - Exploring the Spark APIs/Section 2.4 - Constant Values and Column Expressions.html">
+            
+                    
+                    Section 2.4 - Constant Values and Column Expressions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10" data-path="../Chapter 2 - Exploring the Spark APIs/Section 2.5 - Casting Columns to Different Type.html">
+            
+                <a href="../Chapter 2 - Exploring the Spark APIs/Section 2.5 - Casting Columns to Different Type.html">
+            
+                    
+                    Section 2.5 - Casting Columns to Different Type
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.11" data-path="../Chapter 2 - Exploring the Spark APIs/Section 2.6 - Filtering Data.html">
+            
+                <a href="../Chapter 2 - Exploring the Spark APIs/Section 2.6 - Filtering Data.html">
+            
+                    
+                    Section 2.6 - Filtering Data
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.12" data-path="../Chapter 2 - Exploring the Spark APIs/Section 2.7 - Equality Statements in Spark and Comparison with Nulls.html">
+            
+                <a href="../Chapter 2 - Exploring the Spark APIs/Section 2.7 - Equality Statements in Spark and Comparison with Nulls.html">
+            
+                    
+                    Section 2.7 - Equality Statements in Spark and Comparison with Nulls
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.13" data-path="../Chapter 2 - Exploring the Spark APIs/Section 2.8 - Case Statements.html">
+            
+                <a href="../Chapter 2 - Exploring the Spark APIs/Section 2.8 - Case Statements.html">
+            
+                    
+                    Section 2.8 - Case Statements
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.14" data-path="../Chapter 2 - Exploring the Spark APIs/Section 2.9 - Filling in Null Values.html">
+            
+                <a href="../Chapter 2 - Exploring the Spark APIs/Section 2.9 - Filling in Null Values.html">
+            
+                    
+                    Section 2.9 - Filling in Null Values
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.15" data-path="../Chapter 2 - Exploring the Spark APIs/Section 2.10 - Spark Functions aren't Enough, I Need my Own!.html">
+            
+                <a href="../Chapter 2 - Exploring the Spark APIs/Section 2.10 - Spark Functions aren't Enough, I Need my Own!.html">
+            
+                    
+                    Section 2.10 - Spark Functions aren't Enough, I Need my Own!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.16" data-path="../Chapter 2 - Exploring the Spark APIs/Section 2.11  - Unionizing Multiple Dataframes.html">
+            
+                <a href="../Chapter 2 - Exploring the Spark APIs/Section 2.11  - Unionizing Multiple Dataframes.html">
+            
+                    
+                    Section 2.11  - Unionizing Multiple Dataframes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.17" data-path="../Chapter 2 - Exploring the Spark APIs/Section 2.12 - Performing Joins <clean one>.html">
+            
+                <a href="../Chapter 2 - Exploring the Spark APIs/Section 2.12 - Performing Joins <clean one>.html">
+            
+                    
+                    Section 2.12 - Performing Joins 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.18" data-path="../Chapter 2 - Exploring the Spark APIs/Section 3.1 - One to Many Rows.html">
+            
+                <a href="../Chapter 2 - Exploring the Spark APIs/Section 3.1 - One to Many Rows.html">
+            
+                    
+                    Section 3.1 - One to Many Rows
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.19" data-path="../Chapter 2 - Exploring the Spark APIs/Section 3.2 - Range Join Conditions <WIP>.html">
+            
+                <a href="../Chapter 2 - Exploring the Spark APIs/Section 3.2 - Range Join Conditions <WIP>.html">
+            
+                    
+                    Section 3.2 - Range Join Conditions 
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    Chapter 3 - Aggregates
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../Chapter 3 - Aggregates/Section 1 - Clean Aggregations.html">
+            
+                <a href="../Chapter 3 - Aggregates/Section 1 - Clean Aggregations.html">
+            
+                    
+                    Section 1 - Clean Aggregations
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../Chapter 3 - Aggregates/Section 2 - Non Deterministic Ordering for GroupBys.html">
+            
+                <a href="../Chapter 3 - Aggregates/Section 2 - Non Deterministic Ordering for GroupBys.html">
+            
+                    
+                    Section 2 - Non Deterministic Ordering for GroupBys
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    Chapter 4 - Window Objects
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../Chapter 4 - Window Objects/Section 1 - Default Behaviour of a Window Object.html">
+            
+                <a href="../Chapter 4 - Window Objects/Section 1 - Default Behaviour of a Window Object.html">
+            
+                    
+                    Section 1 - Default Behaviour of a Window Object
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../Chapter 4 - Window Objects/Section 2 - Ordering High Frequency Data with a Window Object.html">
+            
+                <a href="../Chapter 4 - Window Objects/Section 2 - Ordering High Frequency Data with a Window Object.html">
+            
+                    
+                    Section 2 - Ordering High Frequency Data with a Window Object
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    Chapter 6 - Tuning & Spark Parameters
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../Chapter 6 - Tuning & Spark Parameters/Section 1.1 - Understanding how Spark Works.html">
+            
+                <a href="../Chapter 6 - Tuning & Spark Parameters/Section 1.1 - Understanding how Spark Works.html">
+            
+                    
+                    Section 1.1 - Understanding how Spark Works
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    Chapter 7 - High Performance Code
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="Section 1.1 - Filter Pushdown.html">
+            
+                <a href="Section 1.1 - Filter Pushdown.html">
+            
+                    
+                    Section 1.1 - Filter Pushdown
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.7.2" data-path="Section 1.2 - Joins on Skewed Data <Null Keys>.html">
+            
+                <a href="Section 1.2 - Joins on Skewed Data <Null Keys>.html">
+            
+                    
+                    Section 1.2 - Joins on Skewed Data 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="Section 1.3 - Joins on Skewed Data <High Frequency Keys I>.html">
+            
+                <a href="Section 1.3 - Joins on Skewed Data <High Frequency Keys I>.html">
+            
+                    
+                    Section 1.3 - Joins on Skewed Data 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="Section 1.4 - Joins on Skewed Data <High Frequency Keys II> <WIP>.html">
+            
+                <a href="Section 1.4 - Joins on Skewed Data <High Frequency Keys II> <WIP>.html">
+            
+                    
+                    Section 1.4 - Joins on Skewed Data  
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Section 1.2 - Joins on Skewed Data </a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p>A <code>skewed dataset</code> is defined by a dataset that has a class imbalance, this leads to poor or failing spark jobs that often get a <code>OOM</code> (out of memory) error.</p>
+<p>When performing a <code>join</code> onto a <code>skewed dataset</code> it&apos;s usually the case where there is an imbalance on the <code>key</code>(s) on which the join is performed on. This results in a majority of the data falls onto a single partition, which will take longer to complete than the other partitions.</p>
+<p>Some hints to detect skewness is:</p>
+<ol>
+<li>The <code>key</code>(s) consist mainly of <code>null</code> values which fall onto a single partition.</li>
+<li>There is a subset of values for the <code>key</code>(s) that makeup the high percentage of the total keys which fall onto a single partition.</li>
+</ol>
+<p>We go through both these cases and see how we can combat it.</p>
+<h3 id="library-imports">Library Imports</h3>
+<pre><code class="lang-python"><span class="hljs-keyword">from</span> pyspark.sql <span class="hljs-keyword">import</span> SparkSession
+<span class="hljs-keyword">from</span> pyspark.sql <span class="hljs-keyword">import</span> functions <span class="hljs-keyword">as</span> F
+</code></pre>
+<h3 id="template">Template</h3>
+<pre><code class="lang-python">spark = (
+    SparkSession.builder
+    .master(<span class="hljs-string">&quot;local&quot;</span>)
+    .appName(<span class="hljs-string">&quot;Exploring Joins&quot;</span>)
+    .config(<span class="hljs-string">&quot;spark.some.config.option&quot;</span>, <span class="hljs-string">&quot;some-value&quot;</span>)
+    .getOrCreate()
+)
+
+sc = spark.sparkContext
+</code></pre>
+<h3 id="situation-1-null-keys">Situation 1: Null Keys</h3>
+<p>Inital Datasets</p>
+<pre><code class="lang-python">customers = spark.createDataFrame([
+    (<span class="hljs-number">1</span>, <span class="hljs-keyword">None</span>), 
+    (<span class="hljs-number">2</span>, <span class="hljs-keyword">None</span>), 
+    (<span class="hljs-number">3</span>, <span class="hljs-number">1</span>),
+], [<span class="hljs-string">&quot;id&quot;</span>, <span class="hljs-string">&quot;card_id&quot;</span>])
+
+customers.toPandas()
+</code></pre>
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>id</th>
+      <th>card_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>1.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+<pre><code class="lang-python">cards = spark.createDataFrame([
+    (<span class="hljs-number">1</span>, <span class="hljs-string">&quot;john&quot;</span>, <span class="hljs-string">&quot;doe&quot;</span>, <span class="hljs-number">21</span>), 
+    (<span class="hljs-number">2</span>, <span class="hljs-string">&quot;rick&quot;</span>, <span class="hljs-string">&quot;roll&quot;</span>, <span class="hljs-number">10</span>), 
+    (<span class="hljs-number">3</span>, <span class="hljs-string">&quot;bob&quot;</span>, <span class="hljs-string">&quot;brown&quot;</span>, <span class="hljs-number">2</span>)
+], [<span class="hljs-string">&quot;card_id&quot;</span>, <span class="hljs-string">&quot;first_name&quot;</span>, <span class="hljs-string">&quot;last_name&quot;</span>, <span class="hljs-string">&quot;age&quot;</span>])
+
+cards.toPandas()
+</code></pre>
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>card_id</th>
+      <th>first_name</th>
+      <th>last_name</th>
+      <th>age</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>john</td>
+      <td>doe</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>rick</td>
+      <td>roll</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>bob</td>
+      <td>brown</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+<h3 id="option-1-join-regularly">Option #1: Join Regularly</h3>
+<pre><code class="lang-python">df = customers.join(cards, <span class="hljs-string">&quot;card_id&quot;</span>, <span class="hljs-string">&quot;left&quot;</span>)
+
+df.toPandas()
+</code></pre>
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>card_id</th>
+      <th>id</th>
+      <th>first_name</th>
+      <th>last_name</th>
+      <th>age</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>NaN</td>
+      <td>1</td>
+      <td>None</td>
+      <td>None</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>NaN</td>
+      <td>2</td>
+      <td>None</td>
+      <td>None</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>1.0</td>
+      <td>3</td>
+      <td>john</td>
+      <td>doe</td>
+      <td>21.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+<pre><code class="lang-python">df = customers.join(cards, <span class="hljs-string">&quot;card_id&quot;</span>)
+
+df.toPandas()
+</code></pre>
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>card_id</th>
+      <th>id</th>
+      <th>first_name</th>
+      <th>last_name</th>
+      <th>age</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>3</td>
+      <td>john</td>
+      <td>doe</td>
+      <td>21</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+<p><strong>What Happened</strong>:</p>
+<ul>
+<li><p>Rows that didn&apos;t join up were brought to the join.</p>
+</li>
+<li><p>For a <code>left join</code>, they will get <code>Null</code> values for the right side columns, what&apos;s the point of being them in?</p>
+</li>
+<li>For a <code>inner join</code>, they rows will get dropped, so again what&apos;s the point of being them in?</li>
+</ul>
+<p><strong>Results</strong>:</p>
+<ul>
+<li>We brought more rows to the join than we had to. These rows get normally get put onto a single partition. </li>
+<li>If the data is large enough and the percentage of keys that are null is high. The program could OOM out.</li>
+</ul>
+<h3 id="option-2-filter-null-keys-first-then-join-then-union">Option #2: Filter Null Keys First, then Join, then Union</h3>
+<pre><code class="lang-python"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">null_skew_helper</span><span class="hljs-params">(left, right, key)</span>:</span>
+    <span class="hljs-string">&quot;&quot;&quot;
+    Steps:
+        1. Filter out the null rows.
+        2. Create the columns you would get from the join.
+        3. Join the tables.
+        4. Union the null rows to joined table.
+    &quot;&quot;&quot;</span>
+    df1 = left.where(F.col(key).isNull())
+    <span class="hljs-keyword">for</span> f <span class="hljs-keyword">in</span> right.schema.fields:
+            df1 = df1.withColumn(f.name, F.lit(<span class="hljs-keyword">None</span>).cast(f.dataType))
+
+    df2 = left.where(F.col(key).isNotNull())
+    df2 = df2.join(right, key, <span class="hljs-string">&quot;left&quot;</span>)
+
+    <span class="hljs-keyword">return</span> df1.union(df2.select(df1.columns))
+
+
+df = null_skew_helper(customers, cards, <span class="hljs-string">&quot;card_id&quot;</span>)
+
+df.toPandas()
+</code></pre>
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>id</th>
+      <th>card_id</th>
+      <th>first_name</th>
+      <th>last_name</th>
+      <th>age</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>NaN</td>
+      <td>None</td>
+      <td>None</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>NaN</td>
+      <td>None</td>
+      <td>None</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>1.0</td>
+      <td>john</td>
+      <td>doe</td>
+      <td>21.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+<pre><code class="lang-python">df.explain()
+</code></pre>
+<pre><code>== Physical Plan ==
+Union
+:- *(1) Project [id#0L, null AS card_id#23L, null AS first_name#26, null AS last_name#30, null AS age#35L]
+:  +- *(1) Filter isnull(card_id#1L)
+:     +- Scan ExistingRDD[id#0L,card_id#1L]
++- *(5) Project [id#0L, card_id#1L, first_name#5, last_name#6, age#7L]
+   +- SortMergeJoin [card_id#1L], [card_id#4L], LeftOuter
+      :- *(3) Sort [card_id#1L ASC NULLS FIRST], false, 0
+      :  +- Exchange hashpartitioning(card_id#1L, 200)
+      :     +- *(2) Filter isnotnull(card_id#1L)
+      :        +- Scan ExistingRDD[id#0L,card_id#1L]
+      +- *(4) Sort [card_id#4L ASC NULLS FIRST], false, 0
+         +- Exchange hashpartitioning(card_id#4L, 200)
+            +- Scan ExistingRDD[card_id#4L,first_name#5,last_name#6,age#7L]
+</code></pre><p><strong>What Happened</strong>:</p>
+<ul>
+<li>We seperated the data into 2 sets:<ul>
+<li>one where the <code>key</code>s are not <code>null</code>.</li>
+<li>one where the <code>key</code>s are <code>null</code>.</li>
+</ul>
+</li>
+<li>We perform the join on the set where the keys are not null, then union it back with the set where the keys are null. (This step is not necessary when doing an inner join).</li>
+</ul>
+<p><strong>Results</strong>:</p>
+<ul>
+<li>We brought less data to the join.</li>
+<li>We read the data twice; more time was spent on reading data from disk.</li>
+</ul>
+<h3 id="option-3-cache-the-table-filter-null-keys-first-then-join-then-union">Option #3: Cache the Table, Filter Null Keys First, then Join, then Union</h3>
+<p><strong>Helper Function</strong></p>
+<pre><code class="lang-python"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">null_skew_helper</span><span class="hljs-params">(left, right, key)</span>:</span>
+    <span class="hljs-string">&quot;&quot;&quot;
+    Steps:
+        1. Cache table.
+        2. Filter out the null rows.
+        3. Create the columns you would get from the join.
+        4. Join the tables.
+        5. Union the null rows to joined table.
+    &quot;&quot;&quot;</span>
+    left = left.cache()
+
+    df1 = left.where(F.col(key).isNull())
+    <span class="hljs-keyword">for</span> f <span class="hljs-keyword">in</span> right.schema.fields:
+            df1 = df1.withColumn(f.name, F.lit(<span class="hljs-keyword">None</span>).cast(f.dataType))
+
+    df2 = left.where(F.col(key).isNotNull())
+    df2 = df2.join(right, key, <span class="hljs-string">&quot;left&quot;</span>)
+
+    <span class="hljs-keyword">return</span> df1.union(df2.select(df1.columns))
+</code></pre>
+<pre><code class="lang-python">df = null_skew_helper(customers, cards, <span class="hljs-string">&quot;card_id&quot;</span>)
+
+df.toPandas()
+</code></pre>
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>id</th>
+      <th>card_id</th>
+      <th>first_name</th>
+      <th>last_name</th>
+      <th>age</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>NaN</td>
+      <td>None</td>
+      <td>None</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>NaN</td>
+      <td>None</td>
+      <td>None</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>1.0</td>
+      <td>john</td>
+      <td>doe</td>
+      <td>21.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+<pre><code class="lang-python">df.explain()
+</code></pre>
+<pre><code>== Physical Plan ==
+Union
+:- *(1) Project [id#0L, null AS card_id#68L, null AS first_name#71, null AS last_name#75, null AS age#80L]
+:  +- *(1) Filter isnull(card_id#1L)
+:     +- *(1) InMemoryTableScan [card_id#1L, id#0L], [isnull(card_id#1L)]
+:           +- InMemoryRelation [id#0L, card_id#1L], true, 10000, StorageLevel(disk, memory, deserialized, 1 replicas)
+:                 +- Scan ExistingRDD[id#0L,card_id#1L]
++- *(5) Project [id#0L, card_id#1L, first_name#5, last_name#6, age#7L]
+   +- SortMergeJoin [card_id#1L], [card_id#4L], LeftOuter
+      :- *(3) Sort [card_id#1L ASC NULLS FIRST], false, 0
+      :  +- Exchange hashpartitioning(card_id#1L, 200)
+      :     +- *(2) Filter isnotnull(card_id#1L)
+      :        +- *(2) InMemoryTableScan [id#0L, card_id#1L], [isnotnull(card_id#1L)]
+      :              +- InMemoryRelation [id#0L, card_id#1L], true, 10000, StorageLevel(disk, memory, deserialized, 1 replicas)
+      :                    +- Scan ExistingRDD[id#0L,card_id#1L]
+      +- *(4) Sort [card_id#4L ASC NULLS FIRST], false, 0
+         +- Exchange hashpartitioning(card_id#4L, 200)
+            +- Scan ExistingRDD[card_id#4L,first_name#5,last_name#6,age#7L]
+</code></pre><p><strong>What Happened</strong>:</p>
+<ul>
+<li>Similar to option #2, but we did a <code>InMemoryTableScan</code> instead of two reads of the data.</li>
+</ul>
+<p><strong>Results</strong>:</p>
+<ul>
+<li>We brought less data to the join.</li>
+<li>We did 1 less read, but we used more memory.</li>
+</ul>
+<h3 id="summary">Summary</h3>
+<p>All to say:</p>
+<ul>
+<li>It&apos;s definitely better to bring less data to a join, so performing a filter for <code>null keys</code> before the join is definitely suggested.</li>
+<li>For <code>left join</code>s:<ul>
+<li>By doing a union, this will result in an extra read of data or memory usage.</li>
+<li>Decide what you can afford; the extra read vs memory usage and <code>cache</code> the table before the <code>filter</code>.</li>
+</ul>
+</li>
+</ul>
+<p>Always check the spread the values for the <code>join key</code>, to detect if there&apos;s any skew and pre filters that can be performed.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Section 1.1 - Filter Pushdown.html" class="navigation navigation-prev " aria-label="Previous page: Section 1.1 - Filter Pushdown">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="Section 1.3 - Joins on Skewed Data <High Frequency Keys I>.html" class="navigation navigation-next " aria-label="Next page: Section 1.3 - Joins on Skewed Data ">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Section 1.2 - Joins on Skewed Data ","level":"1.7.2","depth":2,"next":{"title":"Section 1.3 - Joins on Skewed Data ","level":"1.7.3","depth":2,"path":"Chapter 7 - High Performance Code/Section 1.3 - Joins on Skewed Data <High Frequency Keys I>.md","ref":"Chapter 7 - High Performance Code/Section 1.3 - Joins on Skewed Data <High Frequency Keys I>.md","articles":[]},"previous":{"title":"Section 1.1 - Filter Pushdown","level":"1.7.1","depth":2,"path":"Chapter 7 - High Performance Code/Section 1.1 - Filter Pushdown.md","ref":"Chapter 7 - High Performance Code/Section 1.1 - Filter Pushdown.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","katex@1.1.3","edit-link@2.0.x","github@2.0.x"],"root":"./src","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit","base":"https://github.com/ericxiao251/spark-syntax/edit/master"},"github":{"url":"https://github.com/ericxiao251/spark-syntax"},"katex":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":14,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"toc":true},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"3.2.x"},"file":{"path":"Chapter 7 - High Performance Code/Section 1.2 - Joins on Skewed Data <Null Keys>.md","mtime":"2019-03-21T01:55:34.986Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-04-08T16:33:07.656Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
