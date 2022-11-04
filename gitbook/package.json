@@ -4,7 +4,7 @@
   "description": "spark-syntax",
   "main": "index.html",
   "dependencies": {
-    "gitbook-cli": "2.3.0",
+    "gitbook-cli": "2.3.2",
     "gitbook-plugin-edit-link": "^2.0.2",
     "gitbook-plugin-github": "^2.0.0",
     "gitbook-plugin-katex": "^1.1.3"
